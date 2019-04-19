@@ -162,7 +162,6 @@
 				EB57014AD66A122123A3B13B /* Pods-hackathongloboUITests.debug.xcconfig */,
 				A89DF469D6B98B4E6F70139B /* Pods-hackathongloboUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

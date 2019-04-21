@@ -8,6 +8,7 @@
 
 import Foundation
 
-class WebMediaTableCellViewModel {
-    
+struct WebMediaTableCellViewModel {
+    let title: String
+    let imageName: String
 }

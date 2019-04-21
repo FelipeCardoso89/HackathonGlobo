@@ -1,5 +1,5 @@
 //
-//  VideoModel.swift
+//  ValidationTableCellViewModel.swift
 //  hackathonglobo
 //
 //  Created by Felipe Antonio Cardoso on 21/04/19.
@@ -8,9 +8,6 @@
 
 import Foundation
 
-struct VideoModel {
-    let iconURL: String?
+struct ValidationTableCellViewModel {
     let title: String
-    let subtitle: String
-    let isProcessing: Bool
 }

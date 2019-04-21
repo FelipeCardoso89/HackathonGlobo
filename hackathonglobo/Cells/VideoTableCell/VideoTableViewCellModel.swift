@@ -23,7 +23,7 @@ struct VideoTableViewCellModel {
     init(video: VideoModel) {
         self.init(
             title: video.title,
-            subtitle: video.isProcessing ? "Analisando video..." : "Video pronto!",
+            subtitle: video.subtitle,
             iconURl: video.iconURL
         )
     }

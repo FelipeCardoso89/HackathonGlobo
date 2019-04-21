@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ViewConfigurable {
     
@@ -14,3 +15,5 @@ protocol ViewConfigurable {
     
     func configure(with viewModel: ViewModel?)
 }
+
+

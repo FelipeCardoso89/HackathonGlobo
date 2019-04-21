@@ -9,7 +9,17 @@
 import Foundation
 
 struct TVShowTableCellViewModel {
-    let imageName: String
+    let imageName: String?
     let title: String
     let subtitle: String
+    
+    init(imageName: String?, title: String, subtitle: String) {
+        self.imageName = imageName
+        self.title = title
+        self.subtitle = subtitle
+    }
+    
+    init(model: HackathonServiceResponseModel) {
+        self.init(imageName: model.imageURL, title: model.programa, subtitle: "\(model.mood)")
+    }
 }

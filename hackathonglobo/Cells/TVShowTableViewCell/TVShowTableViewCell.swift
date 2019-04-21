@@ -13,6 +13,7 @@ class TVShowTableViewCell: UITableViewCell {
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitle: UILabel!
+    @IBOutlet weak var containerView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,7 +26,7 @@ class TVShowTableViewCell: UITableViewCell {
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
-        contentView.layer.cornerRadius = 20
+        containerView.layer.cornerRadius = 8
     }
     
 }
@@ -35,7 +36,13 @@ extension TVShowTableViewCell: ViewConfigurable {
     typealias ViewModel = TVShowTableCellViewModel
     
     func configure(with viewModel: TVShowTableCellViewModel?) {
-        self.iconImageView.image = UIImage(named: viewModel!.imageName)!
+        
+        if let imageName = viewModel?.imageName, !imageName.isEmpty {
+            self.iconImageView.image = UIImage(named: imageName)
+        } else {
+            self.iconImageView.image = UIImage(named: "hora1")!
+        }
+        
         self.titleLabel.text = viewModel?.title
         self.subtitle.text = viewModel?.subtitle
     }

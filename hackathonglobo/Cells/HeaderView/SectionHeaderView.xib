@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SectionHeaderView" customModule="hackathonglobo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vS-hW-EMQ">
+                    <rect key="frame" x="32" y="52" width="350" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zy-FY-JWV">
+                    <rect key="frame" x="32" y="8" width="350" height="38.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.84705882349999995" green="0.1843137255" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="6vS-hW-EMQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="G0W-Lb-QcP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6vS-hW-EMQ" secondAttribute="trailing" constant="32" id="KOf-oh-AYu"/>
+                <constraint firstAttribute="bottom" secondItem="6vS-hW-EMQ" secondAttribute="bottom" constant="8" id="N85-IM-huC"/>
+                <constraint firstItem="6vS-hW-EMQ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Rul-FA-Cm5"/>
+                <constraint firstAttribute="trailing" secondItem="4Zy-FY-JWV" secondAttribute="trailing" constant="32" id="cND-kx-f1T"/>
+                <constraint firstItem="4Zy-FY-JWV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="pPC-i1-1en"/>
+                <constraint firstItem="4Zy-FY-JWV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="qyl-ih-Lgk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="subtitleLabel" destination="6vS-hW-EMQ" id="oI5-hX-y1r"/>
+                <outlet property="titleLabel" destination="4Zy-FY-JWV" id="Q87-4z-0pd"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="63.950892857142854"/>
+        </view>
+    </objects>
+</document>

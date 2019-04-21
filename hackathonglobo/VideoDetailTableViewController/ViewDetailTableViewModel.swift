@@ -7,21 +7,59 @@
 //
 
 import Foundation
+import UIKit
 
 enum VideoDetailSection {
-    case validations
+    case validations(items: [ValidationTableCellViewModel])
     case television(items: [HackathonServiceResponseModel])
-    case web
+    case web(items: [WebMediaTableCellViewModel])
 }
 
 extension VideoDetailSection {
     
-    var items: [HackathonServiceResponseModel] {
+    var items: [Any] {
         switch self {
         case let .television(items):
             return items
-        default:
-            return []
+        case let .validations(items):
+            return items
+        case let .web(items):
+            return items
+        }
+    }
+    
+    var headerTitle: String {
+        switch self {
+        case .television:
+            return "Televisão"
+        case .validations:
+            return "Validações"
+        case .web:
+            return "Mídia online"
+            
+        }
+    }
+    
+    var headerSubtitle: String {
+        switch self {
+        case .television:
+            return "As recomendações abaixo foram feitas baseados no vídeo que submeteu para análise através do Globo Ads+"
+        case .validations:
+            return "Validações automáticas feitas pela nossa plataforma"
+        case .web:
+            return "Sugerimos também inserção de propaganda por vídeo nas seguintes plataformas"
+        }
+    }
+    
+    var height: CGFloat {
+        switch self {
+        case .television:
+            return 180
+        case .validations:
+            return 160
+        case .web:
+            return 160
+            
         }
     }
 }
@@ -33,14 +71,34 @@ protocol ViewDetailTableViewModelDelegate: class {
 
 class ViewDetailTableViewModel {
     
-    private var sections = [NSNumber: VideoDetailSection]()
+    private var sections = [String: VideoDetailSection]()
     
     weak var delegate: ViewDetailTableViewModelDelegate?
     
     func loadVideoData() {
-        sections[NSNumber(value: 0)] = .validations
-        sections[NSNumber(value: 1)] = .television(items: [])
-        sections[NSNumber(value: 2)] = .web
+        sections["0"] = .validations(items: [
+            ValidationTableCellViewModel(title: "Nenhuma infração as diretrizes encontrada."),
+            ValidationTableCellViewModel(title: "Nenhum conteúdo ofensivo encontrado."),
+            ValidationTableCellViewModel(title: "Nenhuma infração as diretrizes tecnicas encontrada.")
+        ])
+        sections["1"] = .television(items: [
+            HackathonServiceResponseModel(
+                ID: "123",
+                programa: "Como Sera?",
+                tema: "Cuidados com a casa",
+                mood: "Felicidade, Alegria",
+                negative: "",
+                tags: "Casa, Carro, Mulher, Saúde",
+                horario: "09:00",
+                celebridades: "Sandra Anenbergue",
+                imageURL: "como_sera"
+            )
+        ])
+        sections["2"] = .web(items: [
+            WebMediaTableCellViewModel(title: "GLOBOPLAY", imageName: "globo_play"),
+            WebMediaTableCellViewModel(title: "GLOBOSATPLAY", imageName: "globo_sat_play"),
+            WebMediaTableCellViewModel(title: "G1", imageName: "g1"),
+        ])
     }
     
     func numberOfSections() -> Int {
@@ -48,7 +106,16 @@ class ViewDetailTableViewModel {
     }
     
     func numberOfRows(at section: Int) -> Int {
-        return sections[NSNumber(value: section)]?.items.count ?? 0
+        
+        guard let sec = sections[String(section)] else {
+            return 0
+        }
+        
+        return sec.items.count
+    }
+    
+    func section(at indexPath: IndexPath) -> VideoDetailSection {
+        return sections[String(indexPath.section)]!
     }
     
     func submit() {
@@ -56,7 +123,12 @@ class ViewDetailTableViewModel {
         let metadata = AnalysisModel(mood: ["joy"], tags: ["religiao", "viagem"], celebridade: "Grazi Massafera")
         submitToAnalysis(metadata: metadata) { (model, error) in
             if let model = model {
-                self.sections.updateValue(VideoDetailSection.television(items: [model]), forKey: NSNumber(value: 1))
+
+                let value: VideoDetailSection = self.sections["1"]!
+                var oldItems = value.items
+                oldItems.append(model)
+                self.sections.updateValue(.television(items: oldItems as! [HackathonServiceResponseModel]), forKey: "1")
+                
                 self.delegate?.didLoadVideoData()
             } else {
                 self.delegate?.didFailLoadData()

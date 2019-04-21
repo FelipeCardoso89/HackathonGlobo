@@ -10,6 +10,12 @@
 		1546FD52226C65F200D380DA /* AnalysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD51226C65F200D380DA /* AnalysisModel.swift */; };
 		1546FD54226C6D5300D380DA /* ViewDetailTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD53226C6D5300D380DA /* ViewDetailTableViewModel.swift */; };
 		1546FD56226C705600D380DA /* HackathonServiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD55226C705600D380DA /* HackathonServiceResponseModel.swift */; };
+		1546FD5A226C801600D380DA /* ValidationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD58226C801600D380DA /* ValidationTableViewCell.swift */; };
+		1546FD5B226C801600D380DA /* ValidationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546FD59226C801600D380DA /* ValidationTableViewCell.xib */; };
+		1546FD5D226C806A00D380DA /* ValidationTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD5C226C806A00D380DA /* ValidationTableCellViewModel.swift */; };
+		1546FD60226C8D2900D380DA /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD5F226C8D2900D380DA /* SectionHeaderView.swift */; };
+		1546FD62226C8D3300D380DA /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546FD61226C8D3300D380DA /* SectionHeaderView.xib */; };
+		1546FD64226C8DC100D380DA /* SectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD63226C8DC100D380DA /* SectionHeaderViewModel.swift */; };
 		155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF22C2268B8C1006945BF /* AppDelegate.swift */; };
 		155DF2322268B8C1006945BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2302268B8C1006945BF /* Main.storyboard */; };
 		155DF2342268B8C3006945BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2332268B8C3006945BF /* Assets.xcassets */; };
@@ -75,6 +81,12 @@
 		1546FD51226C65F200D380DA /* AnalysisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisModel.swift; sourceTree = "<group>"; };
 		1546FD53226C6D5300D380DA /* ViewDetailTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailTableViewModel.swift; sourceTree = "<group>"; };
 		1546FD55226C705600D380DA /* HackathonServiceResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonServiceResponseModel.swift; sourceTree = "<group>"; };
+		1546FD58226C801600D380DA /* ValidationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTableViewCell.swift; sourceTree = "<group>"; };
+		1546FD59226C801600D380DA /* ValidationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ValidationTableViewCell.xib; sourceTree = "<group>"; };
+		1546FD5C226C806A00D380DA /* ValidationTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTableCellViewModel.swift; sourceTree = "<group>"; };
+		1546FD5F226C8D2900D380DA /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		1546FD61226C8D3300D380DA /* SectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		1546FD63226C8DC100D380DA /* SectionHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderViewModel.swift; sourceTree = "<group>"; };
 		155DF2292268B8C1006945BF /* hackathonglobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonglobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155DF22C2268B8C1006945BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155DF2312268B8C1006945BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +171,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1546FD57226C7FDA00D380DA /* ValidationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1546FD58226C801600D380DA /* ValidationTableViewCell.swift */,
+				1546FD59226C801600D380DA /* ValidationTableViewCell.xib */,
+				1546FD5C226C806A00D380DA /* ValidationTableCellViewModel.swift */,
+			);
+			path = ValidationTableViewCell;
+			sourceTree = "<group>";
+		};
+		1546FD5E226C8D0800D380DA /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1546FD5F226C8D2900D380DA /* SectionHeaderView.swift */,
+				1546FD61226C8D3300D380DA /* SectionHeaderView.xib */,
+				1546FD63226C8DC100D380DA /* SectionHeaderViewModel.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
 		155DF2202268B8C1006945BF = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +272,8 @@
 		156AA130226BDFD30098CA17 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				1546FD5E226C8D0800D380DA /* HeaderView */,
+				1546FD57226C7FDA00D380DA /* ValidationTableViewCell */,
 				156AA1A6226C56A20098CA17 /* WebMediaTableViewCell */,
 				156AA1A3226C56710098CA17 /* TVShowTableViewCell */,
 				156AA131226BDFDA0098CA17 /* VideoTableCell */,
@@ -519,7 +553,9 @@
 				156AA14C226C010F0098CA17 /* azure_grazi_massafera_campiang.json in Resources */,
 				156AA1AA226C56F70098CA17 /* WebMediaTableViewCell.xib in Resources */,
 				156AA13E226BF77E0098CA17 /* aws_grazi_massafera_campaing.json in Resources */,
+				1546FD5B226C801600D380DA /* ValidationTableViewCell.xib in Resources */,
 				155DF2342268B8C3006945BF /* Assets.xcassets in Resources */,
+				1546FD62226C8D3300D380DA /* SectionHeaderView.xib in Resources */,
 				156AA135226BE0C30098CA17 /* VideoTableCell.xib in Resources */,
 				155DF2322268B8C1006945BF /* Main.storyboard in Resources */,
 			);
@@ -646,6 +682,7 @@
 				156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */,
 				156AA196226C3F4E0098CA17 /* VideoTableViewModel.swift in Sources */,
 				156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */,
+				1546FD5A226C801600D380DA /* ValidationTableViewCell.swift in Sources */,
 				156AA17E226C14550098CA17 /* AzureVideoIndexesServiceManager.swift in Sources */,
 				1546FD52226C65F200D380DA /* AnalysisModel.swift in Sources */,
 				156AA185226C14D90098CA17 /* AMSSentiment.swift in Sources */,
@@ -653,7 +690,9 @@
 				156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */,
 				156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */,
 				156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */,
+				1546FD64226C8DC100D380DA /* SectionHeaderViewModel.swift in Sources */,
 				156AA18E226C18520098CA17 /* AMSBrand.swift in Sources */,
+				1546FD5D226C806A00D380DA /* ValidationTableCellViewModel.swift in Sources */,
 				156AA174226C07CD0098CA17 /* Celebrity.swift in Sources */,
 				156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */,
 				155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */,
@@ -667,6 +706,7 @@
 				156AA1AC226C57CB0098CA17 /* WebMediaTableCellViewModel.swift in Sources */,
 				156AA19B226C40780098CA17 /* ViewConfigurable.swift in Sources */,
 				156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */,
+				1546FD60226C8D2900D380DA /* SectionHeaderView.swift in Sources */,
 				156AA170226C06260098CA17 /* Parent.swift in Sources */,
 				156AA1A9226C56F70098CA17 /* WebMediaTableViewCell.swift in Sources */,
 			);

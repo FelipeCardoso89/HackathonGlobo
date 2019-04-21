@@ -17,6 +17,7 @@ struct HackathonServiceResponseModel: Codable {
     let tags: String
     let horario: String
     let celebridades: String
+    let imageURL: String?
     
     enum CondingKeys: String, CodingKey {
         case ID
@@ -27,9 +28,10 @@ struct HackathonServiceResponseModel: Codable {
         case tags
         case horario
         case celebridades
+        case imageURL
     }
     
-    init(ID: String, programa: String, tema: String, mood: String, negative: String, tags: String, horario: String, celebridades: String) {
+    init(ID: String, programa: String, tema: String, mood: String, negative: String, tags: String, horario: String, celebridades: String, imageURL: String?) {
         self.ID = ID
         self.programa = programa
         self.tema = tema
@@ -38,6 +40,7 @@ struct HackathonServiceResponseModel: Codable {
         self.tags = tags
         self.horario = horario
         self.celebridades = celebridades
+        self.imageURL = imageURL
     }
     
     
@@ -51,9 +54,19 @@ struct HackathonServiceResponseModel: Codable {
         let tags = try values.decode(String.self, forKey: .tags)
         let horario = try values.decode(String.self, forKey: .horario)
         let celebridades = try values.decode(String.self, forKey: .celebridades)
+        let imageURL = try values.decodeIfPresent(String.self, forKey: .imageURL)
         
-        
-        self.init(ID: ID, programa: programa, tema: tema, mood: mood, negative: negative, tags: tags, horario: horario, celebridades: celebridades)
+        self.init(
+            ID: ID,
+            programa: programa,
+            tema: tema,
+            mood: mood,
+            negative: negative,
+            tags: tags,
+            horario: horario,
+            celebridades: celebridades,
+            imageURL: imageURL
+        )
     }
 }
 

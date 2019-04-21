@@ -13,18 +13,21 @@ struct VideoTableViewCellModel {
     let title: String
     let subtitle: String
     let iconUrl: String?
+    let isProcessing: Bool
     
-    init(title: String, subtitle: String, iconURl: String?) {
+    init(title: String, subtitle: String, iconURl: String?, isProcessing: Bool) {
         self.title = title
         self.subtitle = subtitle
         self.iconUrl = iconURl
+        self.isProcessing = isProcessing
     }
     
     init(video: VideoModel) {
         self.init(
             title: video.title,
             subtitle: video.subtitle,
-            iconURl: video.iconURL
+            iconURl: video.iconURL,
+            isProcessing: video.isProcessing
         )
     }
 }

@@ -14,6 +14,7 @@ class VideoTableCell: UITableViewCell {
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
@@ -42,6 +43,12 @@ extension VideoTableCell: ViewConfigurable {
         
         if let imageName = viewModel?.iconUrl {
             thumbnailImageView.image = UIImage(named: imageName)
+        }
+        
+        if viewModel?.isProcessing ?? false {
+            activityIndicator.startAnimating()
+        } else {
+            activityIndicator.stopAnimating()
         }
     }
 }

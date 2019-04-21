@@ -80,11 +80,24 @@ class VideoTableViewModel {
     func loadVideos() {
         sections = [.videos(items: [
             VideoModel(iconURL: "video1", title: "Publicidade Toyota", subtitle: "Agência Africa\nToyota\nG70QV", isProcessing: false),
-            VideoModel(iconURL: "video2", title: "Publicidade Ambev", subtitle: "Agência Africa\nAmbev\nG70QV", isProcessing: false),
-            VideoModel(iconURL: "video3", title: "Publicidade Coca-Cola", subtitle: "Agência Africa\nCocaCola\nG70QV", isProcessing: false),
-            VideoModel(iconURL: "video4", title: "Publicidade Samsung", subtitle: "Agência Africa\nSamsung\nG70QV", isProcessing: false),
+            VideoModel(iconURL: "video2", title: "Publicidade Samsung", subtitle: "Agência Africa\nSamsung\nG70QV", isProcessing: false),
+            VideoModel(iconURL: "video3", title: "Publicidade Skol", subtitle: "Agência Africa\nSkol\nG70QV", isProcessing: false),
+            VideoModel(iconURL: "video4", title: "Publicidade Coca-Cola", subtitle: "Agência Africa\nCoca-Cola\nG70QV", isProcessing: false),
             VideoModel(iconURL: "video5", title: "Publicidade Jeep", subtitle: "Agência Africa\nJeep\nG70QV", isProcessing: false)
         ])]
+    }
+    
+    func addNewItem() {
+        var oldItems = sections[0].items
+        oldItems.insert(VideoModel(iconURL: "video0", title: "Campanha Jeep", subtitle: "Agência Africa\nJeep\nG70QV", isProcessing: true), at: 0)
+        sections = [.videos(items: oldItems)]
+    }
+    
+    func reloadNewItem() {
+        var oldItems = sections[0].items
+        oldItems.remove(at: 0)
+        oldItems.insert(VideoModel(iconURL: "video5", title: "Campanha Jeep", subtitle: "Agência Africa\nJeep\nG70QV", isProcessing: false), at: 0)
+        sections = [.videos(items: oldItems)]
     }
     
     func video(at indexPath: IndexPath) -> VideoModel {

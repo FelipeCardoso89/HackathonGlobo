@@ -55,6 +55,8 @@
 		156AA1A9226C56F70098CA17 /* WebMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA1A7226C56F70098CA17 /* WebMediaTableViewCell.swift */; };
 		156AA1AA226C56F70098CA17 /* WebMediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */; };
 		156AA1AC226C57CB0098CA17 /* WebMediaTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA1AB226C57CB0098CA17 /* WebMediaTableCellViewModel.swift */; };
+		15C561DC226CA2BC008824D6 /* UploadVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C561DB226CA2BC008824D6 /* UploadVideoViewController.swift */; };
+		15C561DF226CB25E008824D6 /* SecondStepUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C561DE226CB25E008824D6 /* SecondStepUploadViewController.swift */; };
 		34AA1C77DB6B963DDF6F68D1 /* Pods_hackathongloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */; };
 		555C0C82558C1D59E9BD3BB7 /* Pods_hackathonglobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96394FEE2DC7DAC9AEFD7513 /* Pods_hackathonglobo.framework */; };
 		F8485A97D8013349B69311A4 /* Pods_hackathongloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE38144E6655833C06684AF /* Pods_hackathongloboUITests.framework */; };
@@ -132,6 +134,8 @@
 		156AA1A7226C56F70098CA17 /* WebMediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMediaTableViewCell.swift; sourceTree = "<group>"; };
 		156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebMediaTableViewCell.xib; sourceTree = "<group>"; };
 		156AA1AB226C57CB0098CA17 /* WebMediaTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMediaTableCellViewModel.swift; sourceTree = "<group>"; };
+		15C561DB226CA2BC008824D6 /* UploadVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVideoViewController.swift; sourceTree = "<group>"; };
+		15C561DE226CB25E008824D6 /* SecondStepUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepUploadViewController.swift; sourceTree = "<group>"; };
 		1FF0BB217F2D316BE66724C9 /* Pods-hackathongloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.release.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.release.xcconfig"; sourceTree = "<group>"; };
 		3966BFFBFDA29ABA0D17F69E /* Pods-hackathongloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.debug.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathongloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +220,8 @@
 		155DF22B2268B8C1006945BF /* hackathonglobo */ = {
 			isa = PBXGroup;
 			children = (
+				15C561DD226CB220008824D6 /* SecondStepUploadViewController */,
+				15C561DA226CA23E008824D6 /* UploadVideoViewController */,
 				156AA197226C3FB60098CA17 /* Models */,
 				156AA17B226C14080098CA17 /* AzureService */,
 				156AA138226BF63E0098CA17 /* AWSService */,
@@ -415,6 +421,22 @@
 				156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */,
 			);
 			path = WebMediaTableViewCell;
+			sourceTree = "<group>";
+		};
+		15C561DA226CA23E008824D6 /* UploadVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15C561DB226CA2BC008824D6 /* UploadVideoViewController.swift */,
+			);
+			path = UploadVideoViewController;
+			sourceTree = "<group>";
+		};
+		15C561DD226CB220008824D6 /* SecondStepUploadViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15C561DE226CB25E008824D6 /* SecondStepUploadViewController.swift */,
+			);
+			path = SecondStepUploadViewController;
 			sourceTree = "<group>";
 		};
 		8127C2985E47501EAFB9C3CE /* Frameworks */ = {
@@ -690,6 +712,7 @@
 				156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */,
 				156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */,
 				156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */,
+				15C561DF226CB25E008824D6 /* SecondStepUploadViewController.swift in Sources */,
 				1546FD64226C8DC100D380DA /* SectionHeaderViewModel.swift in Sources */,
 				156AA18E226C18520098CA17 /* AMSBrand.swift in Sources */,
 				1546FD5D226C806A00D380DA /* ValidationTableCellViewModel.swift in Sources */,
@@ -698,6 +721,7 @@
 				155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */,
 				1546FD54226C6D5300D380DA /* ViewDetailTableViewModel.swift in Sources */,
 				156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */,
+				15C561DC226CA2BC008824D6 /* UploadVideoViewController.swift in Sources */,
 				156AA189226C17DE0098CA17 /* AMSLabel.swift in Sources */,
 				156AA16E226C05FE0098CA17 /* Label.swift in Sources */,
 				156AA187226C152B0098CA17 /* AMSAppearance.swift in Sources */,

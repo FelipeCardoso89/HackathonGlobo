@@ -9,7 +9,7 @@
 import UIKit
 
 class VideoDetailTableViewController: UIViewController {
-
+    
     @IBOutlet weak var screenTitleLabel: UILabel!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var videoDetailTableView: UITableView!

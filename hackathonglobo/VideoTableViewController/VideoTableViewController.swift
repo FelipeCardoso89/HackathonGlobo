@@ -14,6 +14,7 @@ class VideoTableViewController: UIViewController {
     
     @IBOutlet weak var screenTitleLabel: UILabel!
     @IBOutlet weak var videosTableView: UITableView!
+    @IBOutlet weak var addButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,10 +30,22 @@ class VideoTableViewController: UIViewController {
         videosTableView.separatorStyle = .none
         
         videosTableView.registerCell(of: VideoTableCell.self)
+        
+        addButton.layer.cornerRadius = 25
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        switch segue.identifier {
+        case "GoToNewSubmission":
+            ((segue.destination as? UINavigationController)?.viewControllers.first as? UploadVideoViewController)?.delegate = self
+        default:
+            break
+        }
     }
 }
 
@@ -56,6 +69,8 @@ extension VideoTableViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "segueVideoDetail", sender: nil)
     }
+    
+    
 }
 
 extension VideoTableViewController: VideoTableViewModelDelegate {
@@ -65,6 +80,22 @@ extension VideoTableViewController: VideoTableViewModelDelegate {
             self.videosTableView.reloadData()
         }
     }
+}
+
+extension VideoTableViewController: UploadVideoViewControllerDelegate {
     
+    func didFinish() {
+        viewModel.addNewItem()
+        videosTableView.beginUpdates()
+        videosTableView.insertRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
+        videosTableView.endUpdates()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            self.viewModel.reloadNewItem()
+            self.videosTableView.beginUpdates()
+            self.videosTableView.reloadRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
+            self.videosTableView.endUpdates()
+        }
+    }
 }
 

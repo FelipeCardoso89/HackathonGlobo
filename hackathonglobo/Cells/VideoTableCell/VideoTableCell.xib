@@ -41,6 +41,11 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cbX-eg-pSq">
+                                <rect key="frame" x="181.5" y="49" width="37" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -49,10 +54,12 @@
                             <constraint firstItem="LTe-m1-sbr" firstAttribute="top" secondItem="7yu-MW-qSl" secondAttribute="top" constant="28" id="FtU-Bg-M7W"/>
                             <constraint firstItem="SHB-g7-g3B" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7yu-MW-qSl" secondAttribute="top" constant="8" id="GHy-1x-x8g"/>
                             <constraint firstItem="oRX-6a-VpE" firstAttribute="leading" secondItem="7yu-MW-qSl" secondAttribute="leading" constant="16" id="H69-1m-U2A"/>
+                            <constraint firstItem="cbX-eg-pSq" firstAttribute="centerX" secondItem="SHB-g7-g3B" secondAttribute="centerX" id="INU-VB-uCt"/>
                             <constraint firstItem="SHB-g7-g3B" firstAttribute="leading" secondItem="oRX-6a-VpE" secondAttribute="trailing" constant="8" id="Jpu-my-6sh"/>
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="X6a-ak-BgB"/>
                             <constraint firstItem="oRX-6a-VpE" firstAttribute="top" secondItem="LTe-m1-sbr" secondAttribute="bottom" constant="8" id="gRK-n0-ZAu"/>
                             <constraint firstItem="LTe-m1-sbr" firstAttribute="leading" secondItem="7yu-MW-qSl" secondAttribute="leading" constant="16" id="jdS-nY-Rvf"/>
+                            <constraint firstItem="cbX-eg-pSq" firstAttribute="centerY" secondItem="SHB-g7-g3B" secondAttribute="centerY" id="uN4-i3-fT4"/>
                             <constraint firstItem="SHB-g7-g3B" firstAttribute="leading" secondItem="LTe-m1-sbr" secondAttribute="trailing" constant="8" id="uml-4N-kXR"/>
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="SHB-g7-g3B" secondAttribute="bottom" constant="8" id="uyR-FY-jWL"/>
                             <constraint firstAttribute="trailing" secondItem="SHB-g7-g3B" secondAttribute="trailing" constant="16" id="yKg-Yo-iHZ"/>
@@ -68,6 +75,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="activityIndicator" destination="cbX-eg-pSq" id="hZX-2h-0bm"/>
                 <outlet property="containerView" destination="7yu-MW-qSl" id="WbX-sz-7KZ"/>
                 <outlet property="subtitleLabel" destination="oRX-6a-VpE" id="Cv1-pa-ibc"/>
                 <outlet property="thumbnailImageView" destination="SHB-g7-g3B" id="MTx-pb-Jby"/>

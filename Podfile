@@ -6,7 +6,8 @@ target 'hackathonglobo' do
   use_frameworks!
 
   # Pods for hackathonglobo
-
+    pod 'PureLayout'
+    
   target 'hackathongloboTests' do
     inherit! :search_paths
     # Pods for testing

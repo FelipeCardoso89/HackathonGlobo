@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF22C2268B8C1006945BF /* AppDelegate.swift */; };
-		155DF22F2268B8C1006945BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF22E2268B8C1006945BF /* ViewController.swift */; };
 		155DF2322268B8C1006945BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2302268B8C1006945BF /* Main.storyboard */; };
 		155DF2342268B8C3006945BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2332268B8C3006945BF /* Assets.xcassets */; };
 		155DF2372268B8C3006945BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2352268B8C3006945BF /* LaunchScreen.storyboard */; };
 		155DF2422268B8C3006945BF /* hackathongloboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF2412268B8C3006945BF /* hackathongloboTests.swift */; };
 		155DF24D2268B8C3006945BF /* hackathongloboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF24C2268B8C3006945BF /* hackathongloboUITests.swift */; };
+		156AA12A226BDEB20098CA17 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA129226BDEB20098CA17 /* Reusable.swift */; };
+		156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA12C226BDF330098CA17 /* VideoTableViewController.swift */; };
+		156AA12F226BDFAA0098CA17 /* VideoTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA12E226BDFAA0098CA17 /* VideoTableViewModel.swift */; };
+		156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA132226BE0C30098CA17 /* VideoTableCell.swift */; };
+		156AA135226BE0C30098CA17 /* VideoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156AA133226BE0C30098CA17 /* VideoTableCell.xib */; };
+		156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA13B226BF6D30098CA17 /* AWSRekognitionServiceManager.swift */; };
+		156AA13E226BF77E0098CA17 /* aws_grazi_massafera_campaing.json in Resources */ = {isa = PBXBuildFile; fileRef = 156AA13D226BF77E0098CA17 /* aws_grazi_massafera_campaing.json */; };
+		156AA14C226C010F0098CA17 /* azure_grazi_massafera_campiang.json in Resources */ = {isa = PBXBuildFile; fileRef = 156AA14B226C010F0098CA17 /* azure_grazi_massafera_campiang.json */; };
+		156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA16B226C05D30098CA17 /* LabelElement.swift */; };
+		156AA16E226C05FE0098CA17 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA16D226C05FE0098CA17 /* Label.swift */; };
+		156AA170226C06260098CA17 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA16F226C06260098CA17 /* Parent.swift */; };
+		156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA171226C07A50098CA17 /* CelebrityElement.swift */; };
+		156AA174226C07CD0098CA17 /* Celebrity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA173226C07CD0098CA17 /* Celebrity.swift */; };
+		156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA175226C088C0098CA17 /* ModerationLabelElement.swift */; };
+		156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA177226C08AE0098CA17 /* ModerationLabel.swift */; };
+		156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA179226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift */; };
 		34AA1C77DB6B963DDF6F68D1 /* Pods_hackathongloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */; };
 		555C0C82558C1D59E9BD3BB7 /* Pods_hackathonglobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96394FEE2DC7DAC9AEFD7513 /* Pods_hackathonglobo.framework */; };
 		F8485A97D8013349B69311A4 /* Pods_hackathongloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE38144E6655833C06684AF /* Pods_hackathongloboUITests.framework */; };
@@ -39,7 +54,6 @@
 /* Begin PBXFileReference section */
 		155DF2292268B8C1006945BF /* hackathonglobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonglobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155DF22C2268B8C1006945BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		155DF22E2268B8C1006945BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		155DF2312268B8C1006945BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		155DF2332268B8C3006945BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155DF2362268B8C3006945BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +64,22 @@
 		155DF2482268B8C3006945BF /* hackathongloboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathongloboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		155DF24C2268B8C3006945BF /* hackathongloboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathongloboUITests.swift; sourceTree = "<group>"; };
 		155DF24E2268B8C3006945BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156AA129226BDEB20098CA17 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		156AA12C226BDF330098CA17 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		156AA12E226BDFAA0098CA17 /* VideoTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewModel.swift; sourceTree = "<group>"; };
+		156AA132226BE0C30098CA17 /* VideoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableCell.swift; sourceTree = "<group>"; };
+		156AA133226BE0C30098CA17 /* VideoTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoTableCell.xib; sourceTree = "<group>"; };
+		156AA13B226BF6D30098CA17 /* AWSRekognitionServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSRekognitionServiceManager.swift; sourceTree = "<group>"; };
+		156AA13D226BF77E0098CA17 /* aws_grazi_massafera_campaing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aws_grazi_massafera_campaing.json; sourceTree = "<group>"; };
+		156AA14B226C010F0098CA17 /* azure_grazi_massafera_campiang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = azure_grazi_massafera_campiang.json; sourceTree = "<group>"; };
+		156AA16B226C05D30098CA17 /* LabelElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelElement.swift; sourceTree = "<group>"; };
+		156AA16D226C05FE0098CA17 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		156AA16F226C06260098CA17 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		156AA171226C07A50098CA17 /* CelebrityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrityElement.swift; sourceTree = "<group>"; };
+		156AA173226C07CD0098CA17 /* Celebrity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celebrity.swift; sourceTree = "<group>"; };
+		156AA175226C088C0098CA17 /* ModerationLabelElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModerationLabelElement.swift; sourceTree = "<group>"; };
+		156AA177226C08AE0098CA17 /* ModerationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModerationLabel.swift; sourceTree = "<group>"; };
+		156AA179226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSVideoRekognitionResponseModel.swift; sourceTree = "<group>"; };
 		1FF0BB217F2D316BE66724C9 /* Pods-hackathongloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.release.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.release.xcconfig"; sourceTree = "<group>"; };
 		3966BFFBFDA29ABA0D17F69E /* Pods-hackathongloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.debug.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathongloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +144,12 @@
 		155DF22B2268B8C1006945BF /* hackathonglobo */ = {
 			isa = PBXGroup;
 			children = (
+				156AA138226BF63E0098CA17 /* Service */,
+				156AA136226BF5A80098CA17 /* Mock */,
+				156AA130226BDFD30098CA17 /* Cells */,
+				156AA12B226BDEBE0098CA17 /* VideoTableViewController */,
+				156AA128226BDEA20098CA17 /* Protocols */,
 				155DF22C2268B8C1006945BF /* AppDelegate.swift */,
-				155DF22E2268B8C1006945BF /* ViewController.swift */,
 				155DF2302268B8C1006945BF /* Main.storyboard */,
 				155DF2332268B8C3006945BF /* Assets.xcassets */,
 				155DF2352268B8C3006945BF /* LaunchScreen.storyboard */,
@@ -140,6 +174,105 @@
 				155DF24E2268B8C3006945BF /* Info.plist */,
 			);
 			path = hackathongloboUITests;
+			sourceTree = "<group>";
+		};
+		156AA128226BDEA20098CA17 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				156AA129226BDEB20098CA17 /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		156AA12B226BDEBE0098CA17 /* VideoTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156AA12C226BDF330098CA17 /* VideoTableViewController.swift */,
+				156AA12E226BDFAA0098CA17 /* VideoTableViewModel.swift */,
+			);
+			path = VideoTableViewController;
+			sourceTree = "<group>";
+		};
+		156AA130226BDFD30098CA17 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				156AA131226BDFDA0098CA17 /* VideoTableCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		156AA131226BDFDA0098CA17 /* VideoTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				156AA132226BE0C30098CA17 /* VideoTableCell.swift */,
+				156AA133226BE0C30098CA17 /* VideoTableCell.xib */,
+			);
+			path = VideoTableCell;
+			sourceTree = "<group>";
+		};
+		156AA136226BF5A80098CA17 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				156AA14A226C00C20098CA17 /* AWS */,
+				156AA149226C00BE0098CA17 /* Azure */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		156AA137226BF5EC0098CA17 /* VideoRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				156AA13D226BF77E0098CA17 /* aws_grazi_massafera_campaing.json */,
+			);
+			path = VideoRecognition;
+			sourceTree = "<group>";
+		};
+		156AA138226BF63E0098CA17 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				156AA13B226BF6D30098CA17 /* AWSRekognitionServiceManager.swift */,
+				156AA13F226BFDF00098CA17 /* Models */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		156AA13F226BFDF00098CA17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				156AA16B226C05D30098CA17 /* LabelElement.swift */,
+				156AA16D226C05FE0098CA17 /* Label.swift */,
+				156AA16F226C06260098CA17 /* Parent.swift */,
+				156AA171226C07A50098CA17 /* CelebrityElement.swift */,
+				156AA173226C07CD0098CA17 /* Celebrity.swift */,
+				156AA175226C088C0098CA17 /* ModerationLabelElement.swift */,
+				156AA177226C08AE0098CA17 /* ModerationLabel.swift */,
+				156AA179226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		156AA149226C00BE0098CA17 /* Azure */ = {
+			isa = PBXGroup;
+			children = (
+				156AA14D226C012A0098CA17 /* VideoIndexing */,
+			);
+			path = Azure;
+			sourceTree = "<group>";
+		};
+		156AA14A226C00C20098CA17 /* AWS */ = {
+			isa = PBXGroup;
+			children = (
+				156AA137226BF5EC0098CA17 /* VideoRecognition */,
+			);
+			path = AWS;
+			sourceTree = "<group>";
+		};
+		156AA14D226C012A0098CA17 /* VideoIndexing */ = {
+			isa = PBXGroup;
+			children = (
+				156AA14B226C010F0098CA17 /* azure_grazi_massafera_campiang.json */,
+			);
+			path = VideoIndexing;
 			sourceTree = "<group>";
 		};
 		8127C2985E47501EAFB9C3CE /* Frameworks */ = {
@@ -176,6 +309,7 @@
 				155DF2252268B8C1006945BF /* Sources */,
 				155DF2262268B8C1006945BF /* Frameworks */,
 				155DF2272268B8C1006945BF /* Resources */,
+				6128E691BE9FDB2B29AE9768 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,7 +407,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				155DF2372268B8C3006945BF /* LaunchScreen.storyboard in Resources */,
+				156AA14C226C010F0098CA17 /* azure_grazi_massafera_campiang.json in Resources */,
+				156AA13E226BF77E0098CA17 /* aws_grazi_massafera_campaing.json in Resources */,
 				155DF2342268B8C3006945BF /* Assets.xcassets in Resources */,
+				156AA135226BE0C30098CA17 /* VideoTableCell.xib in Resources */,
 				155DF2322268B8C1006945BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +452,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6128E691BE9FDB2B29AE9768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackathonglobo/Pods-hackathonglobo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackathonglobo/Pods-hackathonglobo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		70923684E947B4CDDEA3D811 /* [CP] Check Pods Manifest.lock */ = {
@@ -368,8 +527,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				155DF22F2268B8C1006945BF /* ViewController.swift in Sources */,
+				156AA12A226BDEB20098CA17 /* Reusable.swift in Sources */,
+				156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */,
+				156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */,
+				156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */,
+				156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */,
+				156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */,
+				156AA174226C07CD0098CA17 /* Celebrity.swift in Sources */,
+				156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */,
 				155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */,
+				156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */,
+				156AA16E226C05FE0098CA17 /* Label.swift in Sources */,
+				156AA12F226BDFAA0098CA17 /* VideoTableViewModel.swift in Sources */,
+				156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */,
+				156AA170226C06260098CA17 /* Parent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +726,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonglobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -574,7 +745,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.felipeantoniocardoso.hackathonglobo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,1650 @@
+{
+    "partition": null,
+    "description": null,
+    "privacyMode": "Private",
+    "state": "Processed",
+    "accountId": "3c460797-d122-4c15-baac-4f3a28db60f4",
+    "id": "e979a24ced",
+    "name": "y2mate.com - dia_dos_namorados_intimissimi_grazi_massafera_IH6qf7kXH8w_1080p",
+    "userName": "Felipe Antonio Cardoso",
+    "created": "2019-04-21T00:58:47.2594491+00:00",
+    "isOwned": true,
+    "isEditable": true,
+    "isBase": true,
+    "durationInSeconds": 30,
+    "summarizedInsights": {
+        "name": "y2mate.com - dia_dos_namorados_intimissimi_grazi_massafera_IH6qf7kXH8w_1080p",
+        "id": "e979a24ced",
+        "privacyMode": "Private",
+        "duration": {
+            "time": "0:00:30.08",
+            "seconds": 30.1
+        },
+        "thumbnailVideoId": "e979a24ced",
+        "thumbnailId": "969e074d-a112-491e-8c09-b1773ab94957",
+        "faces": [
+            {
+                "videoId": "e979a24ced",
+                "referenceId": "8c046007-2a33-5866-6cc4-b29e5f51d29e",
+                "referenceType": "Bing",
+                "confidence": 0.9999,
+                "description": "Grazielli Massafera, mais conhecida como Grazi Massafera, é uma atriz brasileira. Ficou conhecida ao participar da quinta edição do reality show Big Brother Brasil e por seu primeiro papel na novela Páginas da Vida. A personagem Thelma pareceu ter sido feito sob medida para Grazi, e ela recebeu vários …",
+                "title": "Atriz",
+                "thumbnailId": "39ab1ef3-3646-4f66-9e32-9ce09b3325f9",
+                "seenDuration": 20.6,
+                "seenDurationRatio": 0.6848,
+                "id": 1166,
+                "name": "Grazielli Massafera",
+                "appearances": [
+                    {
+                        "startTime": "0:00:01.44",
+                        "endTime": "0:00:22",
+                        "startSeconds": 1.4,
+                        "endSeconds": 22
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            {
+                "isTranscript": false,
+                "id": 1,
+                "name": "grazi",
+                "appearances": [
+                    {
+                        "startTime": "0:00:01.92",
+                        "endTime": "0:00:05.76",
+                        "startSeconds": 1.9,
+                        "endSeconds": 5.8
+                    }
+                ]
+            },
+            {
+                "isTranscript": false,
+                "id": 2,
+                "name": "intimissimi",
+                "appearances": [
+                    {
+                        "startTime": "0:00:21.12",
+                        "endTime": "0:00:21.28",
+                        "startSeconds": 21.1,
+                        "endSeconds": 21.3
+                    },
+                    {
+                        "startTime": "0:00:24.41",
+                        "endTime": "0:00:30.049",
+                        "startSeconds": 24.4,
+                        "endSeconds": 30
+                    }
+                ]
+            },
+            {
+                "isTranscript": false,
+                "id": 3,
+                "name": "assafera",
+                "appearances": [
+                    {
+                        "startTime": "0:00:01.92",
+                        "endTime": "0:00:05.76",
+                        "startSeconds": 1.9,
+                        "endSeconds": 5.8
+                    }
+                ]
+            }
+        ],
+        "sentiments": [
+            {
+                "sentimentKey": "Neutral",
+                "seenDurationRatio": 0.1862,
+                "appearances": [
+                    {
+                        "startTime": "0:00:00",
+                        "endTime": "0:00:00.71",
+                        "startSeconds": 0,
+                        "endSeconds": 0.7
+                    },
+                    {
+                        "startTime": "0:00:25.07",
+                        "endTime": "0:00:30.049",
+                        "startSeconds": 25.1,
+                        "endSeconds": 30
+                    }
+                ]
+            }
+        ],
+        "emotions": [],
+        "audioEffects": [],
+        "labels": [
+            {
+                "id": 1,
+                "name": "Pessoa",
+                "appearances": [
+                    {
+                        "startTime": "0:00:02.56",
+                        "endTime": "0:00:23.04",
+                        "startSeconds": 2.6,
+                        "endSeconds": 23
+                    }
+                ]
+            },
+            {
+                "id": 0,
+                "name": "Mulher",
+                "appearances": [
+                    {
+                        "startTime": "0:00:02.56",
+                        "endTime": "0:00:20.48",
+                        "startSeconds": 2.6,
+                        "endSeconds": 20.5
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Ao ar livre",
+                "appearances": [
+                    {
+                        "startTime": "0:00:02.56",
+                        "endTime": "0:00:03.84",
+                        "startSeconds": 2.6,
+                        "endSeconds": 3.8
+                    },
+                    {
+                        "startTime": "0:00:07.68",
+                        "endTime": "0:00:08.96",
+                        "startSeconds": 7.7,
+                        "endSeconds": 9
+                    },
+                    {
+                        "startTime": "0:00:14.08",
+                        "endTime": "0:00:21.76",
+                        "startSeconds": 14.1,
+                        "endSeconds": 21.8
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Roupa",
+                "appearances": [
+                    {
+                        "startTime": "0:00:02.56",
+                        "endTime": "0:00:03.84",
+                        "startSeconds": 2.6,
+                        "endSeconds": 3.8
+                    },
+                    {
+                        "startTime": "0:00:14.08",
+                        "endTime": "0:00:19.2",
+                        "startSeconds": 14.1,
+                        "endSeconds": 19.2
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Celular",
+                "appearances": [
+                    {
+                        "startTime": "0:00:11.52",
+                        "endTime": "0:00:12.8",
+                        "startSeconds": 11.5,
+                        "endSeconds": 12.8
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Sentado",
+                "appearances": [
+                    {
+                        "startTime": "0:00:19.2",
+                        "endTime": "0:00:20.48",
+                        "startSeconds": 19.2,
+                        "endSeconds": 20.5
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Interior",
+                "appearances": [
+                    {
+                        "startTime": "0:00:12.8",
+                        "endTime": "0:00:14.08",
+                        "startSeconds": 12.8,
+                        "endSeconds": 14.1
+                    }
+                ]
+            }
+        ],
+        "brands": [
+            {
+                "referenceId": "Intimissimi",
+                "referenceUrl": "http://en.wikipedia.org/wiki/Intimissimi",
+                "confidence": 0.362,
+                "description": "Intimissimi is an Italian clothing label started in 1996 that specializes in bras, briefs, lingerie, vests, and pyjamas for women and men. Intimissimi clothes are sold throughout the world: Austria, Croatia, Cyprus, Czech Republic, Greece, Hungary, Italy, Lebanon, Mexico, Poland, Portugal, Qatar, United Kingdom, Russian Federation, Serbia, Slovakia, Slovenia, Spain, Turkey, and United States.",
+                "seenDuration": 0.2,
+                "id": 1,
+                "name": "Intimissimi",
+                "appearances": [
+                    {
+                        "startTime": "0:00:21.12",
+                        "endTime": "0:00:21.28",
+                        "startSeconds": 21.1,
+                        "endSeconds": 21.3
+                    }
+                ]
+            }
+        ],
+        "statistics": {
+            "correspondenceCount": 1,
+            "speakerTalkToListenRatio": {
+                "1": 0.812,
+                "2": 0.187
+            },
+            "speakerLongestMonolog": {
+                "1": 24,
+                "2": 5
+            },
+            "speakerNumberOfFragments": {
+                "1": 1,
+                "2": 1
+            },
+            "speakerWordCount": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        "topics": []
+    },
+    "videos": [
+        {
+            "accountId": "3c460797-d122-4c15-baac-4f3a28db60f4",
+            "id": "e979a24ced",
+            "state": "Processed",
+            "moderationState": "OK",
+            "reviewState": "None",
+            "privacyMode": "Private",
+            "processingProgress": "100%",
+            "failureCode": "None",
+            "failureMessage": "",
+            "externalId": null,
+            "externalUrl": null,
+            "metadata": null,
+            "insights": {
+                "version": "1.0.0.0",
+                "duration": "0:00:30.08",
+                "sourceLanguage": "pt-BR",
+                "language": "pt-BR",
+                "transcript": [
+                    {
+                        "id": 0,
+                        "text": "",
+                        "confidence": 1,
+                        "speakerId": 1,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:24.41",
+                                "start": "0:00:00",
+                                "end": "0:00:24.41"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "text": "intimissimi",
+                        "confidence": 0.8899,
+                        "speakerId": 2,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:24.41",
+                                "adjustedEnd": "0:00:30.049",
+                                "start": "0:00:24.41",
+                                "end": "0:00:30.049"
+                            }
+                        ]
+                    }
+                ],
+                "ocr": [
+                    {
+                        "id": 0,
+                        "text": "Outerwear",
+                        "confidence": 699,
+                        "left": 1345,
+                        "top": 429,
+                        "width": 449,
+                        "height": 80,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:18.72",
+                                "adjustedEnd": "0:00:19.84",
+                                "start": "0:00:18.72",
+                                "end": "0:00:19.84"
+                            },
+                            {
+                                "adjustedStart": "0:00:21.12",
+                                "adjustedEnd": "0:00:21.28",
+                                "start": "0:00:21.12",
+                                "end": "0:00:21.28"
+                            },
+                            {
+                                "adjustedStart": "0:00:21.6",
+                                "adjustedEnd": "0:00:21.76",
+                                "start": "0:00:21.6",
+                                "end": "0:00:21.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "text": "I nt I m lsslrnl",
+                        "confidence": 373,
+                        "left": 513,
+                        "top": 487,
+                        "width": 894,
+                        "height": 87,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:28.8",
+                                "adjustedEnd": "0:00:29.76",
+                                "start": "0:00:28.8",
+                                "end": "0:00:29.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "text": "Intimissimi",
+                        "confidence": 623,
+                        "left": 1352,
+                        "top": 513,
+                        "width": 234,
+                        "height": 50,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:21.12",
+                                "adjustedEnd": "0:00:21.28",
+                                "start": "0:00:21.12",
+                                "end": "0:00:21.28"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "text": "Atriz",
+                        "confidence": 618.5,
+                        "left": 1354,
+                        "top": 559,
+                        "width": 102,
+                        "height": 34,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:19.2",
+                                "adjustedEnd": "0:00:19.84",
+                                "start": "0:00:19.2",
+                                "end": "0:00:19.84"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "text": "Italian lingerie",
+                        "confidence": 719.5,
+                        "left": 870,
+                        "top": 655,
+                        "width": 603,
+                        "height": 71,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:28.8",
+                                "adjustedEnd": "0:00:29.76",
+                                "start": "0:00:28.8",
+                                "end": "0:00:29.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "text": "presents",
+                        "confidence": 999,
+                        "left": 872,
+                        "top": 672,
+                        "width": 178,
+                        "height": 39,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:01.44",
+                                "start": "0:00:00",
+                                "end": "0:00:01.44"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "text": "Confira Online: www.intimissimi.com.br",
+                        "confidence": 834.3333,
+                        "left": 605,
+                        "top": 950,
+                        "width": 711,
+                        "height": 32,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:28.8",
+                                "adjustedEnd": "0:00:29.76",
+                                "start": "0:00:28.8",
+                                "end": "0:00:29.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "text": "assafera",
+                        "confidence": 699,
+                        "left": 312,
+                        "top": 951,
+                        "width": 200,
+                        "height": 48,
+                        "language": "de-DE",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.92",
+                                "adjustedEnd": "0:00:02.4",
+                                "start": "0:00:01.92",
+                                "end": "0:00:02.4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "text": "ssafera—",
+                        "confidence": 699,
+                        "left": 340,
+                        "top": 951,
+                        "width": 252,
+                        "height": 49,
+                        "language": "de-DE",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:06.72",
+                                "adjustedEnd": "0:00:07.2",
+                                "start": "0:00:06.72",
+                                "end": "0:00:07.2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "text": "Grazi",
+                        "confidence": 699,
+                        "left": 97,
+                        "top": 954,
+                        "width": 140,
+                        "height": 45,
+                        "language": "de-DE",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.92",
+                                "adjustedEnd": "0:00:02.4",
+                                "start": "0:00:01.92",
+                                "end": "0:00:02.4"
+                            },
+                            {
+                                "adjustedStart": "0:00:06.72",
+                                "adjustedEnd": "0:00:07.2",
+                                "start": "0:00:06.72",
+                                "end": "0:00:07.2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "text": "Grazi Massafera",
+                        "confidence": 704.4954,
+                        "left": 125,
+                        "top": 983,
+                        "width": 416,
+                        "height": 67,
+                        "language": "en-US",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:05.28",
+                                "adjustedEnd": "0:00:05.76",
+                                "start": "0:00:05.28",
+                                "end": "0:00:05.76"
+                            },
+                            {
+                                "adjustedStart": "0:00:07.2",
+                                "adjustedEnd": "0:00:07.68",
+                                "start": "0:00:07.2",
+                                "end": "0:00:07.68"
+                            },
+                            {
+                                "adjustedStart": "0:00:08.64",
+                                "adjustedEnd": "0:00:11.04",
+                                "start": "0:00:08.64",
+                                "end": "0:00:11.04"
+                            },
+                            {
+                                "adjustedStart": "0:00:11.52",
+                                "adjustedEnd": "0:00:12.48",
+                                "start": "0:00:11.52",
+                                "end": "0:00:12.48"
+                            },
+                            {
+                                "adjustedStart": "0:00:12.96",
+                                "adjustedEnd": "0:00:13.44",
+                                "start": "0:00:12.96",
+                                "end": "0:00:13.44"
+                            },
+                            {
+                                "adjustedStart": "0:00:14.4",
+                                "adjustedEnd": "0:00:15.36",
+                                "start": "0:00:14.4",
+                                "end": "0:00:15.36"
+                            },
+                            {
+                                "adjustedStart": "0:00:17.76",
+                                "adjustedEnd": "0:00:18.24",
+                                "start": "0:00:17.76",
+                                "end": "0:00:18.24"
+                            },
+                            {
+                                "adjustedStart": "0:00:18.72",
+                                "adjustedEnd": "0:00:19.84",
+                                "start": "0:00:18.72",
+                                "end": "0:00:19.84"
+                            },
+                            {
+                                "adjustedStart": "0:00:21.12",
+                                "adjustedEnd": "0:00:21.28",
+                                "start": "0:00:21.12",
+                                "end": "0:00:21.28"
+                            },
+                            {
+                                "adjustedStart": "0:00:21.6",
+                                "adjustedEnd": "0:00:21.76",
+                                "start": "0:00:21.6",
+                                "end": "0:00:21.76"
+                            }
+                        ]
+                    }
+                ],
+                "keywords": [
+                    {
+                        "id": 1,
+                        "text": "grazi",
+                        "confidence": 0.8041,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.92",
+                                "adjustedEnd": "0:00:02.4",
+                                "start": "0:00:01.92",
+                                "end": "0:00:02.4"
+                            },
+                            {
+                                "adjustedStart": "0:00:05.28",
+                                "adjustedEnd": "0:00:05.76",
+                                "start": "0:00:05.28",
+                                "end": "0:00:05.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "text": "intimissimi",
+                        "confidence": 0.6211,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:24.41",
+                                "adjustedEnd": "0:00:30.049",
+                                "start": "0:00:24.41",
+                                "end": "0:00:30.049"
+                            },
+                            {
+                                "adjustedStart": "0:00:21.12",
+                                "adjustedEnd": "0:00:21.28",
+                                "start": "0:00:21.12",
+                                "end": "0:00:21.28"
+                            },
+                            {
+                                "adjustedStart": "0:00:28.8",
+                                "adjustedEnd": "0:00:29.76",
+                                "start": "0:00:28.8",
+                                "end": "0:00:29.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "text": "assafera",
+                        "confidence": 0.6211,
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.92",
+                                "adjustedEnd": "0:00:02.4",
+                                "start": "0:00:01.92",
+                                "end": "0:00:02.4"
+                            },
+                            {
+                                "adjustedStart": "0:00:05.28",
+                                "adjustedEnd": "0:00:05.76",
+                                "start": "0:00:05.28",
+                                "end": "0:00:05.76"
+                            }
+                        ]
+                    }
+                ],
+                "faces": [
+                    {
+                        "id": 1166,
+                        "name": "Grazielli Massafera",
+                        "confidence": 0.9999,
+                        "description": "Grazielli Massafera, mais conhecida como Grazi Massafera, é uma atriz brasileira. Ficou conhecida ao participar da quinta edição do reality show Big Brother Brasil e por seu primeiro papel na novela Páginas da Vida. A personagem Thelma pareceu ter sido feito sob medida para Grazi, e ela recebeu vários …",
+                        "thumbnailId": "39ab1ef3-3646-4f66-9e32-9ce09b3325f9",
+                        "referenceId": "8c046007-2a33-5866-6cc4-b29e5f51d29e",
+                        "referenceType": "Bing",
+                        "title": "Atriz",
+                        "imageUrl": "https://www.bing.com/th?id=AMMS_47ed6ec6b9db1a631ce2a71b0efa2c69&c=12&rs=1&qlt=80&cdv=1&pid=16.2",
+                        "thumbnails": [
+                            {
+                                "id": "d896eb2c-9132-459b-9ef5-3af928f564b2",
+                                "fileName": "FaceThumbnail_d896eb2c-9132-459b-9ef5-3af928f564b2.jpg",
+                                "instances": [
+                                    {
+                                        "adjustedStart": "0:00:01.44",
+                                        "adjustedEnd": "0:00:01.48",
+                                        "start": "0:00:01.44",
+                                        "end": "0:00:01.48"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ac379ef9-1f54-419f-90f4-6de7ad18f739",
+                                "fileName": "FaceThumbnail_ac379ef9-1f54-419f-90f4-6de7ad18f739.jpg",
+                                "instances": [
+                                    {
+                                        "adjustedStart": "0:00:07.68",
+                                        "adjustedEnd": "0:00:07.72",
+                                        "start": "0:00:07.68",
+                                        "end": "0:00:07.72"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "c4dc4c75-e229-48c8-bb26-ca6911f6d221",
+                                "fileName": "FaceThumbnail_c4dc4c75-e229-48c8-bb26-ca6911f6d221.jpg",
+                                "instances": [
+                                    {
+                                        "adjustedStart": "0:00:18.56",
+                                        "adjustedEnd": "0:00:18.6",
+                                        "start": "0:00:18.56",
+                                        "end": "0:00:18.6"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "39ab1ef3-3646-4f66-9e32-9ce09b3325f9",
+                                "fileName": "FaceThumbnail_39ab1ef3-3646-4f66-9e32-9ce09b3325f9.jpg",
+                                "instances": [
+                                    {
+                                        "adjustedStart": "0:00:21.28",
+                                        "adjustedEnd": "0:00:21.32",
+                                        "start": "0:00:21.28",
+                                        "end": "0:00:21.32"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "thumbnailsIds": [
+                                    "d896eb2c-9132-459b-9ef5-3af928f564b2"
+                                ],
+                                "adjustedStart": "0:00:01.44",
+                                "adjustedEnd": "0:00:02.96",
+                                "start": "0:00:01.44",
+                                "end": "0:00:02.96"
+                            },
+                            {
+                                "adjustedStart": "0:00:04.64",
+                                "adjustedEnd": "0:00:05.84",
+                                "start": "0:00:04.64",
+                                "end": "0:00:05.84"
+                            },
+                            {
+                                "thumbnailsIds": [
+                                    "ac379ef9-1f54-419f-90f4-6de7ad18f739"
+                                ],
+                                "adjustedStart": "0:00:07.68",
+                                "adjustedEnd": "0:00:10.84",
+                                "start": "0:00:07.68",
+                                "end": "0:00:10.84"
+                            },
+                            {
+                                "adjustedStart": "0:00:10.88",
+                                "adjustedEnd": "0:00:12.32",
+                                "start": "0:00:10.88",
+                                "end": "0:00:12.32"
+                            },
+                            {
+                                "adjustedStart": "0:00:13.6",
+                                "adjustedEnd": "0:00:16.56",
+                                "start": "0:00:13.6",
+                                "end": "0:00:16.56"
+                            },
+                            {
+                                "thumbnailsIds": [
+                                    "c4dc4c75-e229-48c8-bb26-ca6911f6d221",
+                                    "39ab1ef3-3646-4f66-9e32-9ce09b3325f9"
+                                ],
+                                "adjustedStart": "0:00:18.56",
+                                "adjustedEnd": "0:00:22",
+                                "start": "0:00:18.56",
+                                "end": "0:00:22"
+                            }
+                        ]
+                    }
+                ],
+                "labels": [
+                    {
+                        "id": 0,
+                        "name": "Mulher",
+                        "referenceId": "person/woman",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.9427,
+                                "adjustedStart": "0:00:02.56",
+                                "adjustedEnd": "0:00:03.84",
+                                "start": "0:00:02.56",
+                                "end": "0:00:03.84"
+                            },
+                            {
+                                "confidence": 0.9711,
+                                "adjustedStart": "0:00:05.12",
+                                "adjustedEnd": "0:00:20.48",
+                                "start": "0:00:05.12",
+                                "end": "0:00:20.48"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "Pessoa",
+                        "referenceId": "person",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.9929,
+                                "adjustedStart": "0:00:02.56",
+                                "adjustedEnd": "0:00:23.04",
+                                "start": "0:00:02.56",
+                                "end": "0:00:23.04"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Ao ar livre",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.8813,
+                                "adjustedStart": "0:00:02.56",
+                                "adjustedEnd": "0:00:03.84",
+                                "start": "0:00:02.56",
+                                "end": "0:00:03.84"
+                            },
+                            {
+                                "confidence": 0.9544,
+                                "adjustedStart": "0:00:07.68",
+                                "adjustedEnd": "0:00:08.96",
+                                "start": "0:00:07.68",
+                                "end": "0:00:08.96"
+                            },
+                            {
+                                "confidence": 0.9327,
+                                "adjustedStart": "0:00:14.08",
+                                "adjustedEnd": "0:00:16.64",
+                                "start": "0:00:14.08",
+                                "end": "0:00:16.64"
+                            },
+                            {
+                                "confidence": 0.8966,
+                                "adjustedStart": "0:00:17.92",
+                                "adjustedEnd": "0:00:19.2",
+                                "start": "0:00:17.92",
+                                "end": "0:00:19.2"
+                            },
+                            {
+                                "confidence": 0.907,
+                                "adjustedStart": "0:00:20.48",
+                                "adjustedEnd": "0:00:21.76",
+                                "start": "0:00:20.48",
+                                "end": "0:00:21.76"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Roupa",
+                        "referenceId": "consumer goods/clothing",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.9465,
+                                "adjustedStart": "0:00:02.56",
+                                "adjustedEnd": "0:00:03.84",
+                                "start": "0:00:02.56",
+                                "end": "0:00:03.84"
+                            },
+                            {
+                                "confidence": 0.9772,
+                                "adjustedStart": "0:00:14.08",
+                                "adjustedEnd": "0:00:15.36",
+                                "start": "0:00:14.08",
+                                "end": "0:00:15.36"
+                            },
+                            {
+                                "confidence": 0.9702,
+                                "adjustedStart": "0:00:17.92",
+                                "adjustedEnd": "0:00:19.2",
+                                "start": "0:00:17.92",
+                                "end": "0:00:19.2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Celular",
+                        "referenceId": "electronic equipment/telephone/cellular telephone/cellphone",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.8656,
+                                "adjustedStart": "0:00:11.52",
+                                "adjustedEnd": "0:00:12.8",
+                                "start": "0:00:11.52",
+                                "end": "0:00:12.8"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Interior",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.9124,
+                                "adjustedStart": "0:00:12.8",
+                                "adjustedEnd": "0:00:14.08",
+                                "start": "0:00:12.8",
+                                "end": "0:00:14.08"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "Sentado",
+                        "referenceId": "action/sitting",
+                        "language": "pt-BR",
+                        "instances": [
+                            {
+                                "confidence": 0.9589,
+                                "adjustedStart": "0:00:19.2",
+                                "adjustedEnd": "0:00:20.48",
+                                "start": "0:00:19.2",
+                                "end": "0:00:20.48"
+                            }
+                        ]
+                    }
+                ],
+                "scenes": [
+                    {
+                        "id": 0,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:01.48",
+                                "start": "0:00:00",
+                                "end": "0:00:01.48"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.48",
+                                "adjustedEnd": "0:00:18.8",
+                                "start": "0:00:01.48",
+                                "end": "0:00:18.8"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:18.8",
+                                "adjustedEnd": "0:00:22.28",
+                                "start": "0:00:18.8",
+                                "end": "0:00:22.28"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:22.28",
+                                "adjustedEnd": "0:00:30",
+                                "start": "0:00:22.28",
+                                "end": "0:00:30"
+                            }
+                        ]
+                    }
+                ],
+                "shots": [
+                    {
+                        "id": 0,
+                        "keyFrames": [
+                            {
+                                "id": 0,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "aef0472e-6ea3-4ec2-9f25-bcd1a07c3d64",
+                                        "adjustedStart": "0:00:00.2",
+                                        "adjustedEnd": "0:00:00.24",
+                                        "start": "0:00:00.2",
+                                        "end": "0:00:00.24"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 1,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "7b548648-20eb-466d-9ade-bb62af1a0f3d",
+                                        "adjustedStart": "0:00:00.24",
+                                        "adjustedEnd": "0:00:00.28",
+                                        "start": "0:00:00.24",
+                                        "end": "0:00:00.28"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:01.48",
+                                "start": "0:00:00",
+                                "end": "0:00:01.48"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "keyFrames": [
+                            {
+                                "id": 2,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "a1de78d7-7921-4892-a01b-75cd9d45791c",
+                                        "adjustedStart": "0:00:01.48",
+                                        "adjustedEnd": "0:00:01.52",
+                                        "start": "0:00:01.48",
+                                        "end": "0:00:01.52"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 3,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "1d83b354-2399-4d47-86c0-1363c00a5e6b",
+                                        "adjustedStart": "0:00:02.92",
+                                        "adjustedEnd": "0:00:02.96",
+                                        "start": "0:00:02.92",
+                                        "end": "0:00:02.96"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:01.48",
+                                "adjustedEnd": "0:00:03",
+                                "start": "0:00:01.48",
+                                "end": "0:00:03"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "keyFrames": [
+                            {
+                                "id": 4,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "af4c4429-8cba-4fff-95da-a25d773307ec",
+                                        "adjustedStart": "0:00:03",
+                                        "adjustedEnd": "0:00:03.04",
+                                        "start": "0:00:03",
+                                        "end": "0:00:03.04"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:03",
+                                "adjustedEnd": "0:00:04.92",
+                                "start": "0:00:03",
+                                "end": "0:00:04.92"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "keyFrames": [
+                            {
+                                "id": 5,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "69aa063b-9a7b-4b28-b237-815bf3b1d0fa",
+                                        "adjustedStart": "0:00:04.92",
+                                        "adjustedEnd": "0:00:04.96",
+                                        "start": "0:00:04.92",
+                                        "end": "0:00:04.96"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 6,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "9234e9c9-a279-4f99-9db0-f234dadcd7cc",
+                                        "adjustedStart": "0:00:05.84",
+                                        "adjustedEnd": "0:00:05.88",
+                                        "start": "0:00:05.84",
+                                        "end": "0:00:05.88"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:04.92",
+                                "adjustedEnd": "0:00:07.96",
+                                "start": "0:00:04.92",
+                                "end": "0:00:07.96"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "keyFrames": [
+                            {
+                                "id": 7,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "6f83c15d-bc2a-4a7d-9920-75712a934fd8",
+                                        "adjustedStart": "0:00:07.96",
+                                        "adjustedEnd": "0:00:08",
+                                        "start": "0:00:07.96",
+                                        "end": "0:00:08"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 8,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "31e6829f-7dc7-4c7e-ac94-a15f2cb4eccf",
+                                        "adjustedStart": "0:00:09.12",
+                                        "adjustedEnd": "0:00:09.16",
+                                        "start": "0:00:09.12",
+                                        "end": "0:00:09.16"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:07.96",
+                                "adjustedEnd": "0:00:10.88",
+                                "start": "0:00:07.96",
+                                "end": "0:00:10.88"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "keyFrames": [
+                            {
+                                "id": 9,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "7f47f22b-521f-402a-a5f3-3fbb3217aed7",
+                                        "adjustedStart": "0:00:10.88",
+                                        "adjustedEnd": "0:00:10.92",
+                                        "start": "0:00:10.88",
+                                        "end": "0:00:10.92"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:10.88",
+                                "adjustedEnd": "0:00:12.36",
+                                "start": "0:00:10.88",
+                                "end": "0:00:12.36"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "keyFrames": [
+                            {
+                                "id": 10,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "8f01f3f0-d397-4e83-80a4-3a45c7417ea5",
+                                        "adjustedStart": "0:00:12.36",
+                                        "adjustedEnd": "0:00:12.4",
+                                        "start": "0:00:12.36",
+                                        "end": "0:00:12.4"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:12.36",
+                                "adjustedEnd": "0:00:13.88",
+                                "start": "0:00:12.36",
+                                "end": "0:00:13.88"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "keyFrames": [
+                            {
+                                "id": 11,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "84efc8a7-c135-4c53-aefc-b2ab6b0eac1f",
+                                        "adjustedStart": "0:00:13.88",
+                                        "adjustedEnd": "0:00:13.92",
+                                        "start": "0:00:13.88",
+                                        "end": "0:00:13.92"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:13.88",
+                                "adjustedEnd": "0:00:15.32",
+                                "start": "0:00:13.88",
+                                "end": "0:00:15.32"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "keyFrames": [
+                            {
+                                "id": 12,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "4cb47792-5e3c-4835-bb4c-5957ad2fe20e",
+                                        "adjustedStart": "0:00:15.32",
+                                        "adjustedEnd": "0:00:15.36",
+                                        "start": "0:00:15.32",
+                                        "end": "0:00:15.36"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:15.32",
+                                "adjustedEnd": "0:00:16.6",
+                                "start": "0:00:15.32",
+                                "end": "0:00:16.6"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "keyFrames": [
+                            {
+                                "id": 13,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "26cb2fa5-4140-43a5-8a8f-7852a5489cc3",
+                                        "adjustedStart": "0:00:16.6",
+                                        "adjustedEnd": "0:00:16.64",
+                                        "start": "0:00:16.6",
+                                        "end": "0:00:16.64"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 14,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "bad9c827-4282-4fe8-962b-8bfd80bd3c88",
+                                        "adjustedStart": "0:00:17.92",
+                                        "adjustedEnd": "0:00:17.96",
+                                        "start": "0:00:17.92",
+                                        "end": "0:00:17.96"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:16.6",
+                                "adjustedEnd": "0:00:18.8",
+                                "start": "0:00:16.6",
+                                "end": "0:00:18.8"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "keyFrames": [
+                            {
+                                "id": 15,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "a28b9d9f-9548-4706-9bce-38235562e507",
+                                        "adjustedStart": "0:00:18.8",
+                                        "adjustedEnd": "0:00:18.84",
+                                        "start": "0:00:18.8",
+                                        "end": "0:00:18.84"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:18.8",
+                                "adjustedEnd": "0:00:20.44",
+                                "start": "0:00:18.8",
+                                "end": "0:00:20.44"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "keyFrames": [
+                            {
+                                "id": 16,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "3e379971-9f37-4c77-b503-d03db3875ab3",
+                                        "adjustedStart": "0:00:20.44",
+                                        "adjustedEnd": "0:00:20.48",
+                                        "start": "0:00:20.44",
+                                        "end": "0:00:20.48"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:20.44",
+                                "adjustedEnd": "0:00:22.28",
+                                "start": "0:00:20.44",
+                                "end": "0:00:22.28"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "keyFrames": [
+                            {
+                                "id": 17,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "720031ab-1022-4bf1-9ad5-40fd609e7b6f",
+                                        "adjustedStart": "0:00:22.28",
+                                        "adjustedEnd": "0:00:22.32",
+                                        "start": "0:00:22.28",
+                                        "end": "0:00:22.32"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 18,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "ead2b6e1-c60b-43cf-8487-4eee7cd189a4",
+                                        "adjustedStart": "0:00:27",
+                                        "adjustedEnd": "0:00:27.04",
+                                        "start": "0:00:27",
+                                        "end": "0:00:27.04"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 19,
+                                "instances": [
+                                    {
+                                        "thumbnailId": "9f510435-c714-486a-9f2f-0eabe57b1ba3",
+                                        "adjustedStart": "0:00:28.12",
+                                        "adjustedEnd": "0:00:28.16",
+                                        "start": "0:00:28.12",
+                                        "end": "0:00:28.16"
+                                    }
+                                ]
+                            }
+                        ],
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:22.28",
+                                "adjustedEnd": "0:00:30",
+                                "start": "0:00:22.28",
+                                "end": "0:00:30"
+                            }
+                        ]
+                    }
+                ],
+                "brands": [
+                    {
+                        "id": 1,
+                        "name": "Intimissimi",
+                        "referenceId": "Intimissimi",
+                        "referenceUrl": "http://en.wikipedia.org/wiki/Intimissimi",
+                        "referenceType": "Wiki",
+                        "description": "Intimissimi is an Italian clothing label started in 1996 that specializes in bras, briefs, lingerie, vests, and pyjamas for women and men. Intimissimi clothes are sold throughout the world: Austria, Croatia, Cyprus, Czech Republic, Greece, Hungary, Italy, Lebanon, Mexico, Poland, Portugal, Qatar, United Kingdom, Russian Federation, Serbia, Slovakia, Slovenia, Spain, Turkey, and United States.",
+                        "tags": [],
+                        "confidence": 0.362,
+                        "isCustom": false,
+                        "instances": [
+                            {
+                                "brandType": "Ocr",
+                                "adjustedStart": "0:00:21.12",
+                                "adjustedEnd": "0:00:21.28",
+                                "start": "0:00:21.12",
+                                "end": "0:00:21.28"
+                            }
+                        ]
+                    }
+                ],
+                "sentiments": [
+                    {
+                        "id": 0,
+                        "averageScore": 0.506,
+                        "sentimentType": "Neutral",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:00.71",
+                                "start": "0:00:00",
+                                "end": "0:00:00.71"
+                            },
+                            {
+                                "adjustedStart": "0:00:25.07",
+                                "adjustedEnd": "0:00:30.049",
+                                "start": "0:00:25.07",
+                                "end": "0:00:30.049"
+                            }
+                        ]
+                    }
+                ],
+                "visualContentModeration": [
+                    {
+                        "id": 0,
+                        "adultScore": 0.0001,
+                        "racyScore": 0.9401,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:02.92",
+                                "adjustedEnd": "0:00:02.96",
+                                "start": "0:00:02.92",
+                                "end": "0:00:02.96"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "adultScore": 0.001,
+                        "racyScore": 0.8528,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:04.92",
+                                "adjustedEnd": "0:00:04.96",
+                                "start": "0:00:04.92",
+                                "end": "0:00:04.96"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "adultScore": 0.0041,
+                        "racyScore": 0.9095,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:05.84",
+                                "adjustedEnd": "0:00:05.88",
+                                "start": "0:00:05.84",
+                                "end": "0:00:05.88"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "adultScore": 0.0004,
+                        "racyScore": 0.903,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:07.96",
+                                "adjustedEnd": "0:00:08",
+                                "start": "0:00:07.96",
+                                "end": "0:00:08"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "adultScore": 0.0011,
+                        "racyScore": 0.9572,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:09.12",
+                                "adjustedEnd": "0:00:09.16",
+                                "start": "0:00:09.12",
+                                "end": "0:00:09.16"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "adultScore": 0.0025,
+                        "racyScore": 0.8625,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:10.88",
+                                "adjustedEnd": "0:00:10.92",
+                                "start": "0:00:10.88",
+                                "end": "0:00:10.92"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "adultScore": 0.0001,
+                        "racyScore": 0.9861,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:13.88",
+                                "adjustedEnd": "0:00:13.92",
+                                "start": "0:00:13.88",
+                                "end": "0:00:13.92"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "adultScore": 0.0222,
+                        "racyScore": 0.9193,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:15.32",
+                                "adjustedEnd": "0:00:15.36",
+                                "start": "0:00:15.32",
+                                "end": "0:00:15.36"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "adultScore": 0.0251,
+                        "racyScore": 0.9664,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:16.6",
+                                "adjustedEnd": "0:00:16.64",
+                                "start": "0:00:16.6",
+                                "end": "0:00:16.64"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "adultScore": 0,
+                        "racyScore": 0.9724,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:17.92",
+                                "adjustedEnd": "0:00:17.96",
+                                "start": "0:00:17.92",
+                                "end": "0:00:17.96"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "adultScore": 0,
+                        "racyScore": 0.8895,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:18.8",
+                                "adjustedEnd": "0:00:18.84",
+                                "start": "0:00:18.8",
+                                "end": "0:00:18.84"
+                            }
+                        ]
+                    }
+                ],
+                "blocks": [
+                    {
+                        "id": 0,
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:30.049",
+                                "start": "0:00:00",
+                                "end": "0:00:30.049"
+                            }
+                        ]
+                    }
+                ],
+                "speakers": [
+                    {
+                        "id": 1,
+                        "name": "Speaker #1",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:00",
+                                "adjustedEnd": "0:00:00.71",
+                                "start": "0:00:00",
+                                "end": "0:00:00.71"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Speaker #2",
+                        "instances": [
+                            {
+                                "adjustedStart": "0:00:25.07",
+                                "adjustedEnd": "0:00:30.049",
+                                "start": "0:00:25.07",
+                                "end": "0:00:30.049"
+                            }
+                        ]
+                    }
+                ],
+                "textualContentModeration": {
+                    "id": 0,
+                    "bannedWordsCount": 0,
+                    "bannedWordsRatio": 0,
+                    "instances": []
+                },
+                "statistics": {
+                    "correspondenceCount": 1,
+                    "speakerTalkToListenRatio": {
+                        "1": 0.812,
+                        "2": 0.187
+                    },
+                    "speakerLongestMonolog": {
+                        "1": 24,
+                        "2": 5
+                    },
+                    "speakerNumberOfFragments": {
+                        "1": 1,
+                        "2": 1
+                    },
+                    "speakerWordCount": {
+                        "1": 1,
+                        "2": 1
+                    }
+                },
+                "sourceLanguageConfidence": 1
+            },
+            "thumbnailId": "969e074d-a112-491e-8c09-b1773ab94957",
+            "publishedUrl": "https://rodmandev.streaming.mediaservices.windows.net:443/8923db7d-f154-4b51-826b-7fbb5631fad6/4e73f68c-940b-4800-b1b3-d1dc4f65.ism/manifest(encryption=cbc)",
+            "publishedProxyUrl": null,
+            "viewToken": "Bearer=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cm46bWljcm9zb2Z0OmF6dXJlOm1lZGlhc2VydmljZXM6Y29udGVudGtleWlkZW50aWZpZXIiOiJhNTQ1YjUxNy0yMjEwLTQ3ODMtYTU2Yy1kNGJmZmM0ZWNiNjUiLCJpc3MiOiJodHRwczovL2JyZWFrZG93bi5tZSIsImF1ZCI6IkJyZWFrZG93blVzZXIiLCJleHAiOjE1NTU4OTcwNTYsIm5iZiI6MTU1NTgxMDU5Nn0.avpr8Gk_XYnBgyiI7-PYtEKBIl4AoSYteBPtPmfgSZ4",
+            "detectSourceLanguage": false,
+            "sourceLanguage": "pt-BR",
+            "language": "pt-BR",
+            "indexingPreset": "Default",
+            "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+            "personModelId": "af92cd85-14b7-43db-b098-bb570f58ccc0",
+            "isAdult": false
+        }
+    ],
+    "videosRanges": [
+        {
+            "videoId": "e979a24ced",
+            "range": {
+                "start": "0:00:00",
+                "end": "0:00:30.08"
+            }
+        }
+    ]
+}

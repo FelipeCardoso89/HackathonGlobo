@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1546FD52226C65F200D380DA /* AnalysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD51226C65F200D380DA /* AnalysisModel.swift */; };
+		1546FD54226C6D5300D380DA /* ViewDetailTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD53226C6D5300D380DA /* ViewDetailTableViewModel.swift */; };
+		1546FD56226C705600D380DA /* HackathonServiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546FD55226C705600D380DA /* HackathonServiceResponseModel.swift */; };
 		155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF22C2268B8C1006945BF /* AppDelegate.swift */; };
 		155DF2322268B8C1006945BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2302268B8C1006945BF /* Main.storyboard */; };
 		155DF2342268B8C3006945BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155DF2332268B8C3006945BF /* Assets.xcassets */; };
@@ -15,7 +18,6 @@
 		155DF24D2268B8C3006945BF /* hackathongloboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DF24C2268B8C3006945BF /* hackathongloboUITests.swift */; };
 		156AA12A226BDEB20098CA17 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA129226BDEB20098CA17 /* Reusable.swift */; };
 		156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA12C226BDF330098CA17 /* VideoTableViewController.swift */; };
-		156AA12F226BDFAA0098CA17 /* VideoTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA12E226BDFAA0098CA17 /* VideoTableViewModel.swift */; };
 		156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA132226BE0C30098CA17 /* VideoTableCell.swift */; };
 		156AA135226BE0C30098CA17 /* VideoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156AA133226BE0C30098CA17 /* VideoTableCell.xib */; };
 		156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA13B226BF6D30098CA17 /* AWSRekognitionServiceManager.swift */; };
@@ -36,6 +38,17 @@
 		156AA189226C17DE0098CA17 /* AMSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA188226C17DE0098CA17 /* AMSLabel.swift */; };
 		156AA18E226C18520098CA17 /* AMSBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA18D226C18520098CA17 /* AMSBrand.swift */; };
 		156AA190226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA18F226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift */; };
+		156AA195226C2E160098CA17 /* VideoTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA194226C2E160098CA17 /* VideoTableViewCellModel.swift */; };
+		156AA196226C3F4E0098CA17 /* VideoTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA12E226BDFAA0098CA17 /* VideoTableViewModel.swift */; };
+		156AA199226C3FC40098CA17 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA198226C3FC40098CA17 /* VideoModel.swift */; };
+		156AA19B226C40780098CA17 /* ViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA19A226C40780098CA17 /* ViewConfigurable.swift */; };
+		156AA19E226C55560098CA17 /* VideoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA19D226C55560098CA17 /* VideoDetailTableViewController.swift */; };
+		156AA1A1226C56080098CA17 /* TVShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA19F226C56080098CA17 /* TVShowTableViewCell.swift */; };
+		156AA1A2226C56080098CA17 /* TVShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156AA1A0226C56080098CA17 /* TVShowTableViewCell.xib */; };
+		156AA1A5226C56930098CA17 /* TVShowTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA1A4226C56930098CA17 /* TVShowTableCellViewModel.swift */; };
+		156AA1A9226C56F70098CA17 /* WebMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA1A7226C56F70098CA17 /* WebMediaTableViewCell.swift */; };
+		156AA1AA226C56F70098CA17 /* WebMediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */; };
+		156AA1AC226C57CB0098CA17 /* WebMediaTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA1AB226C57CB0098CA17 /* WebMediaTableCellViewModel.swift */; };
 		34AA1C77DB6B963DDF6F68D1 /* Pods_hackathongloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */; };
 		555C0C82558C1D59E9BD3BB7 /* Pods_hackathonglobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96394FEE2DC7DAC9AEFD7513 /* Pods_hackathonglobo.framework */; };
 		F8485A97D8013349B69311A4 /* Pods_hackathongloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE38144E6655833C06684AF /* Pods_hackathongloboUITests.framework */; };
@@ -59,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1546FD51226C65F200D380DA /* AnalysisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisModel.swift; sourceTree = "<group>"; };
+		1546FD53226C6D5300D380DA /* ViewDetailTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailTableViewModel.swift; sourceTree = "<group>"; };
+		1546FD55226C705600D380DA /* HackathonServiceResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonServiceResponseModel.swift; sourceTree = "<group>"; };
 		155DF2292268B8C1006945BF /* hackathonglobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathonglobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155DF22C2268B8C1006945BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155DF2312268B8C1006945BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +110,16 @@
 		156AA188226C17DE0098CA17 /* AMSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSLabel.swift; sourceTree = "<group>"; };
 		156AA18D226C18520098CA17 /* AMSBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSBrand.swift; sourceTree = "<group>"; };
 		156AA18F226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSVideoIndexesResponseModel.swift; sourceTree = "<group>"; };
+		156AA194226C2E160098CA17 /* VideoTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCellModel.swift; sourceTree = "<group>"; };
+		156AA198226C3FC40098CA17 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		156AA19A226C40780098CA17 /* ViewConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurable.swift; sourceTree = "<group>"; };
+		156AA19D226C55560098CA17 /* VideoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailTableViewController.swift; sourceTree = "<group>"; };
+		156AA19F226C56080098CA17 /* TVShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowTableViewCell.swift; sourceTree = "<group>"; };
+		156AA1A0226C56080098CA17 /* TVShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowTableViewCell.xib; sourceTree = "<group>"; };
+		156AA1A4226C56930098CA17 /* TVShowTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowTableCellViewModel.swift; sourceTree = "<group>"; };
+		156AA1A7226C56F70098CA17 /* WebMediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMediaTableViewCell.swift; sourceTree = "<group>"; };
+		156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebMediaTableViewCell.xib; sourceTree = "<group>"; };
+		156AA1AB226C57CB0098CA17 /* WebMediaTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMediaTableCellViewModel.swift; sourceTree = "<group>"; };
 		1FF0BB217F2D316BE66724C9 /* Pods-hackathongloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.release.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.release.xcconfig"; sourceTree = "<group>"; };
 		3966BFFBFDA29ABA0D17F69E /* Pods-hackathongloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.debug.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathongloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,11 +184,13 @@
 		155DF22B2268B8C1006945BF /* hackathonglobo */ = {
 			isa = PBXGroup;
 			children = (
+				156AA197226C3FB60098CA17 /* Models */,
 				156AA17B226C14080098CA17 /* AzureService */,
 				156AA138226BF63E0098CA17 /* AWSService */,
 				156AA136226BF5A80098CA17 /* Mock */,
 				156AA130226BDFD30098CA17 /* Cells */,
 				156AA12B226BDEBE0098CA17 /* VideoTableViewController */,
+				156AA19C226C4ED10098CA17 /* VideoDetailTableViewController */,
 				156AA128226BDEA20098CA17 /* Protocols */,
 				155DF22C2268B8C1006945BF /* AppDelegate.swift */,
 				155DF2302268B8C1006945BF /* Main.storyboard */,
@@ -195,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				156AA129226BDEB20098CA17 /* Reusable.swift */,
+				156AA19A226C40780098CA17 /* ViewConfigurable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -211,6 +240,8 @@
 		156AA130226BDFD30098CA17 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				156AA1A6226C56A20098CA17 /* WebMediaTableViewCell */,
+				156AA1A3226C56710098CA17 /* TVShowTableViewCell */,
 				156AA131226BDFDA0098CA17 /* VideoTableCell */,
 			);
 			path = Cells;
@@ -220,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				156AA132226BE0C30098CA17 /* VideoTableCell.swift */,
+				156AA194226C2E160098CA17 /* VideoTableViewCellModel.swift */,
 				156AA133226BE0C30098CA17 /* VideoTableCell.xib */,
 			);
 			path = VideoTableCell;
@@ -310,6 +342,45 @@
 				156AA18D226C18520098CA17 /* AMSBrand.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		156AA197226C3FB60098CA17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				156AA198226C3FC40098CA17 /* VideoModel.swift */,
+				1546FD51226C65F200D380DA /* AnalysisModel.swift */,
+				1546FD55226C705600D380DA /* HackathonServiceResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		156AA19C226C4ED10098CA17 /* VideoDetailTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				156AA19D226C55560098CA17 /* VideoDetailTableViewController.swift */,
+				1546FD53226C6D5300D380DA /* ViewDetailTableViewModel.swift */,
+			);
+			path = VideoDetailTableViewController;
+			sourceTree = "<group>";
+		};
+		156AA1A3226C56710098CA17 /* TVShowTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				156AA19F226C56080098CA17 /* TVShowTableViewCell.swift */,
+				156AA1A4226C56930098CA17 /* TVShowTableCellViewModel.swift */,
+				156AA1A0226C56080098CA17 /* TVShowTableViewCell.xib */,
+			);
+			path = TVShowTableViewCell;
+			sourceTree = "<group>";
+		};
+		156AA1A6226C56A20098CA17 /* WebMediaTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				156AA1A7226C56F70098CA17 /* WebMediaTableViewCell.swift */,
+				156AA1AB226C57CB0098CA17 /* WebMediaTableCellViewModel.swift */,
+				156AA1A8226C56F70098CA17 /* WebMediaTableViewCell.xib */,
+			);
+			path = WebMediaTableViewCell;
 			sourceTree = "<group>";
 		};
 		8127C2985E47501EAFB9C3CE /* Frameworks */ = {
@@ -443,8 +514,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156AA1A2226C56080098CA17 /* TVShowTableViewCell.xib in Resources */,
 				155DF2372268B8C3006945BF /* LaunchScreen.storyboard in Resources */,
 				156AA14C226C010F0098CA17 /* azure_grazi_massafera_campiang.json in Resources */,
+				156AA1AA226C56F70098CA17 /* WebMediaTableViewCell.xib in Resources */,
 				156AA13E226BF77E0098CA17 /* aws_grazi_massafera_campaing.json in Resources */,
 				155DF2342268B8C3006945BF /* Assets.xcassets in Resources */,
 				156AA135226BE0C30098CA17 /* VideoTableCell.xib in Resources */,
@@ -564,13 +637,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1546FD56226C705600D380DA /* HackathonServiceResponseModel.swift in Sources */,
 				156AA12A226BDEB20098CA17 /* Reusable.swift in Sources */,
 				156AA183226C14B50098CA17 /* AMSSummarizedInsights.swift in Sources */,
+				156AA1A1226C56080098CA17 /* TVShowTableViewCell.swift in Sources */,
+				156AA195226C2E160098CA17 /* VideoTableViewCellModel.swift in Sources */,
 				156AA190226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift in Sources */,
 				156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */,
+				156AA196226C3F4E0098CA17 /* VideoTableViewModel.swift in Sources */,
 				156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */,
 				156AA17E226C14550098CA17 /* AzureVideoIndexesServiceManager.swift in Sources */,
+				1546FD52226C65F200D380DA /* AnalysisModel.swift in Sources */,
 				156AA185226C14D90098CA17 /* AMSSentiment.swift in Sources */,
+				156AA199226C3FC40098CA17 /* VideoModel.swift in Sources */,
 				156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */,
 				156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */,
 				156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */,
@@ -578,13 +657,18 @@
 				156AA174226C07CD0098CA17 /* Celebrity.swift in Sources */,
 				156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */,
 				155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */,
+				1546FD54226C6D5300D380DA /* ViewDetailTableViewModel.swift in Sources */,
 				156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */,
 				156AA189226C17DE0098CA17 /* AMSLabel.swift in Sources */,
 				156AA16E226C05FE0098CA17 /* Label.swift in Sources */,
 				156AA187226C152B0098CA17 /* AMSAppearance.swift in Sources */,
-				156AA12F226BDFAA0098CA17 /* VideoTableViewModel.swift in Sources */,
+				156AA19E226C55560098CA17 /* VideoDetailTableViewController.swift in Sources */,
+				156AA1A5226C56930098CA17 /* TVShowTableCellViewModel.swift in Sources */,
+				156AA1AC226C57CB0098CA17 /* WebMediaTableCellViewModel.swift in Sources */,
+				156AA19B226C40780098CA17 /* ViewConfigurable.swift in Sources */,
 				156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */,
 				156AA170226C06260098CA17 /* Parent.swift in Sources */,
+				156AA1A9226C56F70098CA17 /* WebMediaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,13 @@
 		156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA175226C088C0098CA17 /* ModerationLabelElement.swift */; };
 		156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA177226C08AE0098CA17 /* ModerationLabel.swift */; };
 		156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA179226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift */; };
+		156AA17E226C14550098CA17 /* AzureVideoIndexesServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA17D226C14550098CA17 /* AzureVideoIndexesServiceManager.swift */; };
+		156AA183226C14B50098CA17 /* AMSSummarizedInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA182226C14B50098CA17 /* AMSSummarizedInsights.swift */; };
+		156AA185226C14D90098CA17 /* AMSSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA184226C14D90098CA17 /* AMSSentiment.swift */; };
+		156AA187226C152B0098CA17 /* AMSAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA186226C152B0098CA17 /* AMSAppearance.swift */; };
+		156AA189226C17DE0098CA17 /* AMSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA188226C17DE0098CA17 /* AMSLabel.swift */; };
+		156AA18E226C18520098CA17 /* AMSBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA18D226C18520098CA17 /* AMSBrand.swift */; };
+		156AA190226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156AA18F226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift */; };
 		34AA1C77DB6B963DDF6F68D1 /* Pods_hackathongloboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */; };
 		555C0C82558C1D59E9BD3BB7 /* Pods_hackathonglobo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96394FEE2DC7DAC9AEFD7513 /* Pods_hackathonglobo.framework */; };
 		F8485A97D8013349B69311A4 /* Pods_hackathongloboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE38144E6655833C06684AF /* Pods_hackathongloboUITests.framework */; };
@@ -80,6 +87,13 @@
 		156AA175226C088C0098CA17 /* ModerationLabelElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModerationLabelElement.swift; sourceTree = "<group>"; };
 		156AA177226C08AE0098CA17 /* ModerationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModerationLabel.swift; sourceTree = "<group>"; };
 		156AA179226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSVideoRekognitionResponseModel.swift; sourceTree = "<group>"; };
+		156AA17D226C14550098CA17 /* AzureVideoIndexesServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureVideoIndexesServiceManager.swift; sourceTree = "<group>"; };
+		156AA182226C14B50098CA17 /* AMSSummarizedInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSSummarizedInsights.swift; sourceTree = "<group>"; };
+		156AA184226C14D90098CA17 /* AMSSentiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSSentiment.swift; sourceTree = "<group>"; };
+		156AA186226C152B0098CA17 /* AMSAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSAppearance.swift; sourceTree = "<group>"; };
+		156AA188226C17DE0098CA17 /* AMSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSLabel.swift; sourceTree = "<group>"; };
+		156AA18D226C18520098CA17 /* AMSBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSBrand.swift; sourceTree = "<group>"; };
+		156AA18F226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSVideoIndexesResponseModel.swift; sourceTree = "<group>"; };
 		1FF0BB217F2D316BE66724C9 /* Pods-hackathongloboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.release.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.release.xcconfig"; sourceTree = "<group>"; };
 		3966BFFBFDA29ABA0D17F69E /* Pods-hackathongloboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathongloboTests.debug.xcconfig"; path = "Target Support Files/Pods-hackathongloboTests/Pods-hackathongloboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48D99539E0CC86CF4FD86F97 /* Pods_hackathongloboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathongloboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +158,8 @@
 		155DF22B2268B8C1006945BF /* hackathonglobo */ = {
 			isa = PBXGroup;
 			children = (
-				156AA138226BF63E0098CA17 /* Service */,
+				156AA17B226C14080098CA17 /* AzureService */,
+				156AA138226BF63E0098CA17 /* AWSService */,
 				156AA136226BF5A80098CA17 /* Mock */,
 				156AA130226BDFD30098CA17 /* Cells */,
 				156AA12B226BDEBE0098CA17 /* VideoTableViewController */,
@@ -227,13 +242,13 @@
 			path = VideoRecognition;
 			sourceTree = "<group>";
 		};
-		156AA138226BF63E0098CA17 /* Service */ = {
+		156AA138226BF63E0098CA17 /* AWSService */ = {
 			isa = PBXGroup;
 			children = (
 				156AA13B226BF6D30098CA17 /* AWSRekognitionServiceManager.swift */,
 				156AA13F226BFDF00098CA17 /* Models */,
 			);
-			path = Service;
+			path = AWSService;
 			sourceTree = "<group>";
 		};
 		156AA13F226BFDF00098CA17 /* Models */ = {
@@ -273,6 +288,28 @@
 				156AA14B226C010F0098CA17 /* azure_grazi_massafera_campiang.json */,
 			);
 			path = VideoIndexing;
+			sourceTree = "<group>";
+		};
+		156AA17B226C14080098CA17 /* AzureService */ = {
+			isa = PBXGroup;
+			children = (
+				156AA17F226C146C0098CA17 /* Models */,
+				156AA17D226C14550098CA17 /* AzureVideoIndexesServiceManager.swift */,
+			);
+			path = AzureService;
+			sourceTree = "<group>";
+		};
+		156AA17F226C146C0098CA17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				156AA18F226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift */,
+				156AA182226C14B50098CA17 /* AMSSummarizedInsights.swift */,
+				156AA184226C14D90098CA17 /* AMSSentiment.swift */,
+				156AA186226C152B0098CA17 /* AMSAppearance.swift */,
+				156AA188226C17DE0098CA17 /* AMSLabel.swift */,
+				156AA18D226C18520098CA17 /* AMSBrand.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8127C2985E47501EAFB9C3CE /* Frameworks */ = {
@@ -528,16 +565,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				156AA12A226BDEB20098CA17 /* Reusable.swift in Sources */,
+				156AA183226C14B50098CA17 /* AMSSummarizedInsights.swift in Sources */,
+				156AA190226C18D50098CA17 /* AMSVideoIndexesResponseModel.swift in Sources */,
 				156AA12D226BDF330098CA17 /* VideoTableViewController.swift in Sources */,
 				156AA134226BE0C30098CA17 /* VideoTableCell.swift in Sources */,
+				156AA17E226C14550098CA17 /* AzureVideoIndexesServiceManager.swift in Sources */,
+				156AA185226C14D90098CA17 /* AMSSentiment.swift in Sources */,
 				156AA16C226C05D30098CA17 /* LabelElement.swift in Sources */,
 				156AA172226C07A50098CA17 /* CelebrityElement.swift in Sources */,
 				156AA13C226BF6D30098CA17 /* AWSRekognitionServiceManager.swift in Sources */,
+				156AA18E226C18520098CA17 /* AMSBrand.swift in Sources */,
 				156AA174226C07CD0098CA17 /* Celebrity.swift in Sources */,
 				156AA176226C088C0098CA17 /* ModerationLabelElement.swift in Sources */,
 				155DF22D2268B8C1006945BF /* AppDelegate.swift in Sources */,
 				156AA178226C08AE0098CA17 /* ModerationLabel.swift in Sources */,
+				156AA189226C17DE0098CA17 /* AMSLabel.swift in Sources */,
 				156AA16E226C05FE0098CA17 /* Label.swift in Sources */,
+				156AA187226C152B0098CA17 /* AMSAppearance.swift in Sources */,
 				156AA12F226BDFAA0098CA17 /* VideoTableViewModel.swift in Sources */,
 				156AA17A226C09710098CA17 /* AWSVideoRekognitionResponseModel.swift in Sources */,
 				156AA170226C06260098CA17 /* Parent.swift in Sources */,

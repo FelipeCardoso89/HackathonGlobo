@@ -9,15 +9,40 @@
 import Foundation
 
 class VideoTableViewModel {
-    
-    private let service: AWSRekognitionServiceManager
-    
-    convenience init() {
-        self.init(service: AWSRekognitionServiceManager.shared)
+
+    static func loadAWSGraziData() -> Data? {
+        guard
+            let path = Bundle.main.path(forResource: "aws_grazi_massafera_campaing", ofType: "json"),
+            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        else {
+            return nil
+        }
+        
+        return data
     }
     
-    init(service: AWSRekognitionServiceManager) {
-        self.service = service
+    static func loadAzureGraziData() -> Data? {
+        guard
+            let path = Bundle.main.path(forResource: "azure_grazi_massafera_campiang", ofType: "json"),
+            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        else {
+            return nil
+        }
+        
+        return data
+    }
+    
+    private let awsService: AWSRekognitionServiceManager
+    private let amsService: AzureVideoIndexesServiceManager
+    
+    
+    convenience init() {
+        self.init(awsService: AWSRekognitionServiceManager.shared, amsService: AzureVideoIndexesServiceManager.shared)
+    }
+    
+    init(awsService: AWSRekognitionServiceManager, amsService: AzureVideoIndexesServiceManager) {
+        self.awsService = awsService
+        self.amsService = amsService
     }
     
     func validateVideo(at path: String) {
@@ -26,20 +51,30 @@ class VideoTableViewModel {
     
     func validadeVideo() {
         
-        guard
-            let path = Bundle.main.path(forResource: "aws_grazi_massafera_campaing", ofType: "json"),
-            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-        else {
+//        guard let awsData = VideoTableViewModel.loadAWSGraziData() else {
+//            return
+//        }
+//
+//        awsService.performVideoAnalyses(for: awsData) { (response, error) in
+//            if let error = error {
+//                print("Error: \(error)")
+//            } else {
+//                print("Response: \(response)")
+//            }
+//        }
+        
+        guard let amsData = VideoTableViewModel.loadAzureGraziData() else {
             return
         }
         
-        service.performVideoAnalyses(for: data) { (response, error) in
+        amsService.performVideoAnalyses(for: amsData) { (response, error) in
             if let error = error {
                 print("Error: \(error)")
             } else {
-                print("Response: \(response)")
+                print("Azure Response: \(response)")
             }
         }
+        
     }
 
     func loadVideos() {

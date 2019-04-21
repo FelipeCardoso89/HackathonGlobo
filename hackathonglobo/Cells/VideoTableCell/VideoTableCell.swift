@@ -46,8 +46,10 @@ extension VideoTableCell: ViewConfigurable {
         }
         
         if viewModel?.isProcessing ?? false {
+            thumbnailImageView.isHidden = true
             activityIndicator.startAnimating()
         } else {
+            thumbnailImageView.isHidden = false
             activityIndicator.stopAnimating()
         }
     }

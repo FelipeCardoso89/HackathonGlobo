@@ -25,7 +25,7 @@ struct VideoTableViewCellModel {
     init(video: VideoModel) {
         self.init(
             title: video.title,
-            subtitle: video.subtitle,
+            subtitle: (video.state == .none) ? video.subtitle : video.state.message,
             iconURl: video.iconURL,
             isProcessing: video.isProcessing
         )

@@ -16,6 +16,29 @@ class VideoTableViewController: UIViewController {
     @IBOutlet weak var videosTableView: UITableView!
     @IBOutlet weak var addButton: UIButton!
     
+    var states = [VideoState]()
+    
+    private lazy var timer: DispatchSourceTimer = {
+        let t = DispatchSource.makeTimerSource()
+        t.schedule(deadline: .now(), repeating: 1.2)
+        t.setEventHandler(handler: { [weak self] in
+            DispatchQueue.main.async {
+                
+                guard !(self?.states.isEmpty ?? true) else {
+                    return
+                }
+                
+                if let state = self?.states.removeFirst() {
+                    self?.viewModel.reloadNewItem(with: state)
+                    self?.videosTableView.beginUpdates()
+                    self?.videosTableView.reloadRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
+                    self?.videosTableView.endUpdates()
+                }
+            }
+        })
+        return t
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Videos"
@@ -90,7 +113,15 @@ extension VideoTableViewController: UploadVideoViewControllerDelegate {
         videosTableView.insertRows(at: [IndexPath(item: 0, section: 0)], with: .fade)
         videosTableView.endUpdates()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+        states.append(.analisando)
+        states.append(.validando)
+        states.append(.procurando)
+        states.append(.procurandoOutrasMidias)
+        
+        timer.resume()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
+            self.timer.suspend()
             self.viewModel.reloadNewItem()
             self.videosTableView.beginUpdates()
             self.videosTableView.reloadRows(at: [IndexPath(item: 0, section: 0)], with: .fade)

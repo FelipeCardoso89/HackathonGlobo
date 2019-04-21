@@ -20,7 +20,7 @@ class VideoTableViewController: UIViewController {
     
     private lazy var timer: DispatchSourceTimer = {
         let t = DispatchSource.makeTimerSource()
-        t.schedule(deadline: .now(), repeating: 1.2)
+        t.schedule(deadline: .now(), repeating: 7.5)
         t.setEventHandler(handler: { [weak self] in
             DispatchQueue.main.async {
                 
@@ -120,7 +120,7 @@ extension VideoTableViewController: UploadVideoViewControllerDelegate {
         
         timer.resume()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 7.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 30.0) {
             self.timer.suspend()
             self.viewModel.reloadNewItem()
             self.videosTableView.beginUpdates()

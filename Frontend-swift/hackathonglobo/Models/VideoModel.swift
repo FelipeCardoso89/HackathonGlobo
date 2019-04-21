@@ -22,13 +22,13 @@ enum VideoState {
         case .none:
             return ""
         case .analisando:
-            return "Preparando para analise..."
+            return "Preparando para análise..."
         case .validando:
             return "Validando caracteristicas do video..."
         case .procurando:
             return "Procurando oportunidades de anúncio..."
         case .procurandoOutrasMidias:
-            return "Procurando oportunidade de anúncio em outras midias..."
+            return "Procurando oportunidade de anúncio em outras mídias..."
         }
     }
 }

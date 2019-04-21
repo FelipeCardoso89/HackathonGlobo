@@ -90,6 +90,13 @@ extension VideoTableViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        let video = viewModel.video(at: indexPath)
+        guard video.state == .none else {
+            return
+        }
+        
         self.performSegue(withIdentifier: "segueVideoDetail", sender: nil)
     }
     
